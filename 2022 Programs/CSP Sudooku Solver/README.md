@@ -1,4 +1,5 @@
 Name: Rudy Ramirez
+
 Course: CSCE 4613 - Artificial Intelligence
 
 Notes:
