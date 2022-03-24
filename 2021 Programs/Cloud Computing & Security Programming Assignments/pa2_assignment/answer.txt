@@ -1,0 +1,18 @@
+
+Answer.text
+1) Calculating and counting a Bigram is similar to doing the same for WordCount.java. The
+   fundamental different being that the map in WordCount.java recorded each word sepratly
+   while BigramCount.java recorded a two-word combination every map instance. To do so you
+   need to create two text objects and populate them every time a new word combination is
+   found. Then to concatenate them into a single object that would be written out to the
+   output file with a numerical value of one. Once all the bigrams are recorded, the 
+   reducer compacts everything and all the number of instances are calculated. At the end,
+   every Bigram will be written onto a file along with thier respective counts.
+
+   Calculating the number of map tasks used within the mapping stage relied on a method
+   called cleanup(). Map tasks are dependent on the size of the incoming data so the
+   best way to represent this was to monitor how many times the mapper class was called.
+   cleanup() executes at the end of a map task so by adding a counter into it, we were
+   able to accurately calculate how many map tasks were used.
+
+2) Total Number of Map Tasks: 3

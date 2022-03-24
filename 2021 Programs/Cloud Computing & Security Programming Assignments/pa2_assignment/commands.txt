@@ -1,0 +1,4 @@
+rm -rf output *.jar *.class
+javac BigramCount.java
+jar -cvf BigramCount.jar ./BigramCount*.class
+hadoop jar BigramCount.jar BigramCount input output
