@@ -1,0 +1,11 @@
+Creater: Rudy Ramirez
+
+1) The simplest approach is to place a counter within the map method that increments
+   by one every  time it is called. However, normal variable based counters would not
+   work due to the inability to reliably predict the size and type of input. Instead,
+   the function "context.write(phrase, one);" would be used. That line of code would
+   create one key value pair every time the map method is called. When everything is
+   complete, the IntSumReducer class would combine all the map pairs together creating
+   an accurate count of the map method being called.
+
+2) The map method was used 258 times
