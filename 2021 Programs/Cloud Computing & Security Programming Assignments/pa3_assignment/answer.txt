@@ -1,0 +1,14 @@
+
+answer.txt
+The standard WordCount.java program utilizes a mapper class and a reducer class to read,
+identify, count, and combine words as a wordpair. Additionally, it saves the input as 
+Text objects. This allows the program to sort all the wordpairs though the built-in 
+compare method. This means that the wordpairs can be sorted in reverse alphabetical
+order if you modifiy the compare method. 
+
+For this new program, we created a modified text file that an alternate compare method. 
+Tipically, the compare method looks at two objects and returns either a -1, 0, or 1 based 
+on if the first object is less than, equal, or greater than the second object. Since the
+placement of each word is dependant on a binary system, reverse alphabetical order can be
+achieved if the return value is multiplied by -1. This would result in returning the
+opposite sign which would naturally flip the sorted order.
