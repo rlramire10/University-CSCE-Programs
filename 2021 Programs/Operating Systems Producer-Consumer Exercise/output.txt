@@ -1,0 +1,5655 @@
+Microsoft Windows [Version 10.0.19042.928]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\rudy9\OneDrive\Documents\University of Arkansas\4th Year 2020 - 2021\Spring 2020\CSCE 3613 - Operating Systems\Homework\Homework 05>
+javac ProducerConsumer.java
+
+C:\Users\rudy9\OneDrive\Documents\University of Arkansas\4th Year 2020 - 2021\Spring 2020\CSCE 3613 - Operating Systems\Homework\Homework 05>
+java ProducerConsumer 20 1 1
+
+Using arguments from command line
+Sleep time = 20
+Producer threads = 1
+Consumer threads = 1
+
+Producer produced 28997
+        Consumer consumes 28997
+Producer produced 87895
+        Consumer consumes 87895
+Producer produced 2505
+        Consumer consumes 2505
+Producer produced 89610
+        Consumer consumes 89610
+Producer produced 5795
+        Consumer consumes 5795
+Producer produced 69338
+        Consumer consumes 69338
+Producer produced 28038
+        Consumer consumes 28038
+Producer produced 40379
+        Consumer consumes 40379
+Producer produced 50331
+        Consumer consumes 50331
+Producer produced 57184
+        Consumer consumes 57184
+Producer produced 84818
+        Consumer consumes 84818
+Producer produced 48587
+        Consumer consumes 48587
+Producer produced 90335
+        Consumer consumes 90335
+Producer produced 86135
+Producer produced 99612
+        Consumer consumes 86135
+        Consumer consumes 99612
+Producer produced 78680
+Producer produced 99417
+        Consumer consumes 78680
+        Consumer consumes 99417
+Producer produced 45299
+        Consumer consumes 45299
+Producer produced 36216
+        Consumer consumes 36216
+Producer produced 43153
+Producer produced 25740
+        Consumer consumes 43153
+Producer produced 16165
+        Consumer consumes 25740
+Producer produced 54644
+Producer produced 20670
+Producer produced 71352
+        Consumer consumes 16165
+        Consumer consumes 54644
+        Consumer consumes 20670
+Producer produced 49597
+        Consumer consumes 71352
+Producer produced 9122
+Producer produced 87047
+        Consumer consumes 49597
+        Consumer consumes 9122
+Producer produced 80155
+Producer produced 94777
+        Consumer consumes 87047
+        Consumer consumes 80155
+        Consumer consumes 94777
+Producer produced 8020
+        Consumer consumes 8020
+Producer produced 59522
+        Consumer consumes 59522
+Producer produced 62325
+Producer produced 74120
+        Consumer consumes 62325
+        Consumer consumes 74120
+Producer produced 44614
+        Consumer consumes 44614
+Producer produced 41979
+        Consumer consumes 41979
+Producer produced 50021
+Producer produced 24383
+        Consumer consumes 50021
+        Consumer consumes 24383
+Producer produced 49045
+        Consumer consumes 49045
+Producer produced 54626
+        Consumer consumes 54626
+Producer produced 19439
+        Consumer consumes 19439
+Producer produced 99255
+        Consumer consumes 99255
+Producer produced 25454
+        Consumer consumes 25454
+Producer produced 57484
+Producer produced 87999
+        Consumer consumes 57484
+        Consumer consumes 87999
+Producer produced 14018
+        Consumer consumes 14018
+Producer produced 29121
+        Consumer consumes 29121
+Producer produced 99751
+        Consumer consumes 99751
+Producer produced 73286
+        Consumer consumes 73286
+Producer produced 50120
+        Consumer consumes 50120
+Producer produced 8659
+        Consumer consumes 8659
+Producer produced 71935
+Producer produced 13027
+        Consumer consumes 71935
+        Consumer consumes 13027
+Producer produced 60450
+Producer produced 78131
+        Consumer consumes 60450
+        Consumer consumes 78131
+Producer produced 24165
+        Consumer consumes 24165
+Producer produced 1886
+        Consumer consumes 1886
+Producer produced 14482
+        Consumer consumes 14482
+Producer produced 19588
+        Consumer consumes 19588
+Producer produced 98530
+Producer produced 54637
+        Consumer consumes 98530
+        Consumer consumes 54637
+Producer produced 4317
+        Consumer consumes 4317
+Producer produced 54265
+        Consumer consumes 54265
+Producer produced 32408
+        Consumer consumes 32408
+Producer produced 91257
+        Consumer consumes 91257
+Producer produced 84134
+        Consumer consumes 84134
+Producer produced 18144
+        Consumer consumes 18144
+Producer produced 92785
+        Consumer consumes 92785
+Producer produced 22907
+        Consumer consumes 22907
+Producer produced 30281
+        Consumer consumes 30281
+Producer produced 59221
+        Consumer consumes 59221
+Producer produced 34919
+        Consumer consumes 34919
+Producer produced 25152
+        Consumer consumes 25152
+Producer produced 15152
+        Consumer consumes 15152
+Producer produced 5399
+Producer produced 17487
+        Consumer consumes 5399
+        Consumer consumes 17487
+Producer produced 58412
+        Consumer consumes 58412
+Producer produced 10165
+        Consumer consumes 10165
+Producer produced 55031
+        Consumer consumes 55031
+Producer produced 64866
+        Consumer consumes 64866
+Producer produced 40347
+Producer produced 64501
+        Consumer consumes 40347
+Producer produced 79660
+Producer produced 77162
+Producer produced 25986
+        Consumer consumes 64501
+Producer produced 62541
+Producer produced 27236
+        Consumer consumes 79660
+Producer produced 42181
+        Consumer consumes 77162
+Producer produced 99379
+        Consumer consumes 25986
+Producer produced 56788
+        Consumer consumes 62541
+Producer produced 50293
+        Consumer consumes 27236
+Producer produced 57177
+        Consumer consumes 42181
+        Consumer consumes 99379
+Producer produced 58783
+        Consumer consumes 56788
+        Consumer consumes 50293
+Producer produced 661
+        Consumer consumes 57177
+        Consumer consumes 58783
+Producer produced 64914
+Producer produced 14389
+        Consumer consumes 661
+Producer produced 52662
+        Consumer consumes 64914
+        Consumer consumes 14389
+        Consumer consumes 52662
+Producer produced 54183
+        Consumer consumes 54183
+Producer produced 1241
+Producer produced 53919
+        Consumer consumes 1241
+        Consumer consumes 53919
+
+C:\Users\rudy9\OneDrive\Documents\University of Arkansas\4th Year 2020 - 2021\Spring 2020\CSCE 3613 - Operating Systems\Homework\Homework 05>
+java ProducerConsumer 20 5 1
+
+Using arguments from command line
+Sleep time = 20
+Producer threads = 5
+Consumer threads = 1
+
+Producer produced 39160
+Producer produced 33989
+Producer produced 72044
+Producer produced 77029
+Producer produced 92483
+Producer produced 19196
+        Consumer consumes 39160
+        Consumer consumes 33989
+Producer produced 66444
+        Consumer consumes 72044
+Producer produced 28041
+        Consumer consumes 77029
+Producer produced 99668
+        Consumer consumes 92483
+Producer produced 62761
+        Consumer consumes 19196
+Producer produced 57943
+        Consumer consumes 66444
+Producer produced 98288
+        Consumer consumes 28041
+Producer produced 55162
+        Consumer consumes 99668
+Producer produced 94260
+        Consumer consumes 62761
+Producer produced 21918
+        Consumer consumes 57943
+Producer produced 3483
+        Consumer consumes 98288
+Producer produced 2940
+        Consumer consumes 55162
+Producer produced 38829
+        Consumer consumes 94260
+Producer produced 36
+        Consumer consumes 21918
+Producer produced 90891
+        Consumer consumes 3483
+Producer produced 46454
+        Consumer consumes 2940
+Producer produced 18605
+        Consumer consumes 38829
+Producer produced 82195
+        Consumer consumes 36
+Producer produced 4116
+        Consumer consumes 90891
+Producer produced 15777
+        Consumer consumes 46454
+Producer produced 18443
+        Consumer consumes 18605
+Producer produced 39657
+        Consumer consumes 82195
+Producer produced 73792
+        Consumer consumes 4116
+Producer produced 17008
+        Consumer consumes 15777
+Producer produced 87831
+        Consumer consumes 18443
+Producer produced 32976
+        Consumer consumes 39657
+Producer produced 43164
+        Consumer consumes 73792
+Producer produced 25654
+        Consumer consumes 17008
+Producer produced 96342
+        Consumer consumes 87831
+Producer produced 77068
+        Consumer consumes 32976
+Producer produced 70915
+        Consumer consumes 43164
+Producer produced 61638
+        Consumer consumes 25654
+Producer produced 84539
+        Consumer consumes 96342
+Producer produced 12877
+        Consumer consumes 77068
+Producer produced 51077
+        Consumer consumes 70915
+Producer produced 59122
+        Consumer consumes 61638
+Producer produced 14110
+        Consumer consumes 84539
+Producer produced 16516
+        Consumer consumes 12877
+Producer produced 62612
+        Consumer consumes 51077
+Producer produced 45973
+        Consumer consumes 59122
+Producer produced 96924
+        Consumer consumes 14110
+Producer produced 78865
+        Consumer consumes 16516
+Producer produced 34859
+        Consumer consumes 62612
+Producer produced 70124
+        Consumer consumes 45973
+Producer produced 7499
+        Consumer consumes 96924
+Producer produced 7803
+        Consumer consumes 78865
+Producer produced 74204
+        Consumer consumes 34859
+Producer produced 28606
+        Consumer consumes 70124
+Producer produced 87672
+        Consumer consumes 7499
+Producer produced 28953
+        Consumer consumes 7803
+Producer produced 87860
+        Consumer consumes 74204
+Producer produced 21309
+        Consumer consumes 28606
+Producer produced 23615
+        Consumer consumes 87672
+Producer produced 79630
+        Consumer consumes 28953
+Producer produced 52108
+        Consumer consumes 87860
+Producer produced 22917
+        Consumer consumes 21309
+Producer produced 9446
+        Consumer consumes 23615
+Producer produced 88210
+        Consumer consumes 79630
+Producer produced 92783
+        Consumer consumes 52108
+Producer produced 15361
+        Consumer consumes 22917
+Producer produced 41431
+        Consumer consumes 9446
+Producer produced 2218
+        Consumer consumes 88210
+Producer produced 10563
+        Consumer consumes 92783
+Producer produced 5037
+        Consumer consumes 15361
+Producer produced 6168
+        Consumer consumes 41431
+Producer produced 25242
+        Consumer consumes 2218
+Producer produced 87830
+        Consumer consumes 10563
+Producer produced 52757
+Producer produced 22856
+        Consumer consumes 5037
+        Consumer consumes 6168
+Producer produced 70033
+        Consumer consumes 25242
+Producer produced 41638
+        Consumer consumes 87830
+Producer produced 92924
+        Consumer consumes 52757
+Producer produced 4504
+        Consumer consumes 22856
+Producer produced 26146
+        Consumer consumes 70033
+Producer produced 40365
+        Consumer consumes 41638
+Producer produced 4122
+        Consumer consumes 92924
+Producer produced 98371
+        Consumer consumes 4504
+Producer produced 53491
+        Consumer consumes 26146
+Producer produced 14056
+        Consumer consumes 40365
+Producer produced 50237
+        Consumer consumes 4122
+Producer produced 22092
+        Consumer consumes 98371
+Producer produced 95246
+        Consumer consumes 53491
+Producer produced 82306
+        Consumer consumes 14056
+Producer produced 11440
+        Consumer consumes 50237
+Producer produced 86195
+        Consumer consumes 22092
+Producer produced 76085
+        Consumer consumes 95246
+Producer produced 35265
+        Consumer consumes 82306
+Producer produced 24729
+        Consumer consumes 11440
+Producer produced 65971
+        Consumer consumes 86195
+Producer produced 5618
+        Consumer consumes 76085
+Producer produced 3501
+        Consumer consumes 35265
+Producer produced 76667
+        Consumer consumes 24729
+Producer produced 33275
+        Consumer consumes 65971
+Producer produced 85612
+        Consumer consumes 5618
+Producer produced 8856
+        Consumer consumes 3501
+Producer produced 83356
+        Consumer consumes 76667
+Producer produced 83431
+        Consumer consumes 33275
+Producer produced 30262
+        Consumer consumes 85612
+Producer produced 46543
+        Consumer consumes 8856
+Producer produced 25313
+
+C:\Users\rudy9\OneDrive\Documents\University of Arkansas\4th Year 2020 - 2021\Spring 2020\CSCE 3613 - Operating Systems\Homework\Homework 05>
+java ProducerConsumer 20 1 5
+
+Using arguments from command line
+Sleep time = 20
+Producer threads = 1
+Consumer threads = 5
+
+Producer produced 41486
+        Consumer consumes 41486
+Producer produced 61833
+        Consumer consumes 61833
+Producer produced 16308
+        Consumer consumes 16308
+Producer produced 27436
+        Consumer consumes 27436
+Producer produced 30295
+        Consumer consumes 30295
+Producer produced 3836
+        Consumer consumes 3836
+Producer produced 32991
+        Consumer consumes 32991
+Producer produced 21530
+        Consumer consumes 21530
+Producer produced 98908
+        Consumer consumes 98908
+Producer produced 93712
+        Consumer consumes 93712
+Producer produced 26212
+        Consumer consumes 26212
+Producer produced 26304
+        Consumer consumes 26304
+Producer produced 99
+        Consumer consumes 99
+Producer produced 25525
+        Consumer consumes 25525
+Producer produced 6802
+        Consumer consumes 6802
+Producer produced 50607
+        Consumer consumes 50607
+Producer produced 66353
+        Consumer consumes 66353
+Producer produced 96129
+        Consumer consumes 96129
+Producer produced 44199
+        Consumer consumes 44199
+Producer produced 80219
+        Consumer consumes 80219
+Producer produced 29829
+        Consumer consumes 29829
+Producer produced 21150
+        Consumer consumes 21150
+Producer produced 13059
+        Consumer consumes 13059
+Producer produced 16135
+        Consumer consumes 16135
+Producer produced 67785
+        Consumer consumes 67785
+Producer produced 34491
+        Consumer consumes 34491
+Producer produced 86158
+        Consumer consumes 86158
+Producer produced 91839
+        Consumer consumes 91839
+Producer produced 63893
+        Consumer consumes 63893
+Producer produced 69634
+        Consumer consumes 69634
+Producer produced 20643
+        Consumer consumes 20643
+Producer produced 16446
+        Consumer consumes 16446
+Producer produced 12928
+        Consumer consumes 12928
+Producer produced 86986
+        Consumer consumes 86986
+Producer produced 3384
+        Consumer consumes 3384
+Producer produced 32112
+        Consumer consumes 32112
+Producer produced 88388
+        Consumer consumes 88388
+Producer produced 95267
+        Consumer consumes 95267
+Producer produced 28235
+        Consumer consumes 28235
+Producer produced 77170
+        Consumer consumes 77170
+Producer produced 37037
+        Consumer consumes 37037
+Producer produced 7630
+        Consumer consumes 7630
+Producer produced 37290
+        Consumer consumes 37290
+Producer produced 81174
+        Consumer consumes 81174
+Producer produced 53918
+        Consumer consumes 53918
+Producer produced 9039
+        Consumer consumes 9039
+Producer produced 6047
+        Consumer consumes 6047
+Producer produced 74946
+        Consumer consumes 74946
+Producer produced 15200
+        Consumer consumes 15200
+Producer produced 12251
+        Consumer consumes 12251
+Producer produced 88950
+        Consumer consumes 88950
+Producer produced 99224
+        Consumer consumes 99224
+Producer produced 46439
+        Consumer consumes 46439
+Producer produced 28236
+        Consumer consumes 28236
+Producer produced 12973
+        Consumer consumes 12973
+Producer produced 5424
+        Consumer consumes 5424
+Producer produced 38116
+        Consumer consumes 38116
+Producer produced 95123
+        Consumer consumes 95123
+Producer produced 71191
+        Consumer consumes 71191
+Producer produced 40929
+        Consumer consumes 40929
+Producer produced 90816
+        Consumer consumes 90816
+Producer produced 19628
+        Consumer consumes 19628
+Producer produced 56684
+        Consumer consumes 56684
+Producer produced 84926
+        Consumer consumes 84926
+Producer produced 16124
+        Consumer consumes 16124
+Producer produced 83693
+        Consumer consumes 83693
+Producer produced 86833
+        Consumer consumes 86833
+Producer produced 88765
+        Consumer consumes 88765
+Producer produced 40994
+        Consumer consumes 40994
+Producer produced 10073
+        Consumer consumes 10073
+Producer produced 82463
+        Consumer consumes 82463
+Producer produced 97940
+        Consumer consumes 97940
+Producer produced 96487
+        Consumer consumes 96487
+Producer produced 81649
+        Consumer consumes 81649
+Producer produced 21491
+        Consumer consumes 21491
+Producer produced 59196
+        Consumer consumes 59196
+Producer produced 94720
+        Consumer consumes 94720
+Producer produced 28746
+        Consumer consumes 28746
+Producer produced 88689
+        Consumer consumes 88689
+Producer produced 34680
+        Consumer consumes 34680
+Producer produced 83901
+        Consumer consumes 83901
+Producer produced 10202
+        Consumer consumes 10202
+Producer produced 47542
+        Consumer consumes 47542
+Producer produced 51982
+        Consumer consumes 51982
+Producer produced 95910
+        Consumer consumes 95910
+Producer produced 68971
+        Consumer consumes 68971
+Producer produced 28857
+        Consumer consumes 28857
+Producer produced 3187
+        Consumer consumes 3187
+Producer produced 46609
+        Consumer consumes 46609
+Producer produced 3538
+        Consumer consumes 3538
+Producer produced 16828
+        Consumer consumes 16828
+Producer produced 50310
+        Consumer consumes 50310
+Producer produced 61053
+        Consumer consumes 61053
+Producer produced 4569
+        Consumer consumes 4569
+Producer produced 54773
+        Consumer consumes 54773
+Producer produced 36082
+        Consumer consumes 36082
+Producer produced 47631
+        Consumer consumes 47631
+Producer produced 2424
+        Consumer consumes 2424
+Producer produced 38196
+        Consumer consumes 38196
+Producer produced 95639
+        Consumer consumes 95639
+
+C:\Users\rudy9\OneDrive\Documents\University of Arkansas\4th Year 2020 - 2021\Spring 2020\CSCE 3613 - Operating Systems\Homework\Homework 05>
+java ProducerConsumer 20 5 5
+
+Using arguments from command line
+Sleep time = 20
+Producer threads = 5
+Consumer threads = 5
+
+Producer produced 4108
+        Consumer consumes 4108
+Producer produced 24259
+        Consumer consumes 24259
+Producer produced 53980
+        Consumer consumes 53980
+Producer produced 47991
+        Consumer consumes 47991
+Producer produced 93887
+Producer produced 43951
+Producer produced 64901
+        Consumer consumes 93887
+        Consumer consumes 43951
+Producer produced 52494
+        Consumer consumes 64901
+        Consumer consumes 52494
+Producer produced 84725
+Producer produced 55994
+        Consumer consumes 84725
+Producer produced 63929
+Producer produced 90645
+        Consumer consumes 55994
+        Consumer consumes 63929
+        Consumer consumes 90645
+Producer produced 6497
+Producer produced 20768
+        Consumer consumes 6497
+Producer produced 43028
+        Consumer consumes 20768
+        Consumer consumes 43028
+Producer produced 46244
+        Consumer consumes 46244
+Producer produced 92016
+        Consumer consumes 92016
+Producer produced 54459
+        Consumer consumes 54459
+Producer produced 59594
+        Consumer consumes 59594
+Producer produced 775
+        Consumer consumes 775
+Producer produced 9480
+        Consumer consumes 9480
+Producer produced 84450
+        Consumer consumes 84450
+Producer produced 20856
+        Consumer consumes 20856
+Producer produced 94609
+        Consumer consumes 94609
+Producer produced 60880
+        Consumer consumes 60880
+Producer produced 36380
+        Consumer consumes 36380
+Producer produced 4662
+        Consumer consumes 4662
+Producer produced 11009
+        Consumer consumes 11009
+Producer produced 71311
+        Consumer consumes 71311
+Producer produced 26943
+        Consumer consumes 26943
+Producer produced 4936
+Producer produced 61033
+Producer produced 29324
+Producer produced 73002
+Producer produced 19572
+        Consumer consumes 4936
+Producer produced 61889
+        Consumer consumes 61033
+Producer produced 93428
+        Consumer consumes 29324
+        Consumer consumes 73002
+        Consumer consumes 19572
+        Consumer consumes 61889
+Producer produced 40219
+        Consumer consumes 93428
+Producer produced 61070
+        Consumer consumes 40219
+Producer produced 57735
+Producer produced 28251
+        Consumer consumes 61070
+Producer produced 47437
+        Consumer consumes 57735
+Producer produced 3470
+        Consumer consumes 28251
+        Consumer consumes 47437
+Producer produced 19760
+Producer produced 87737
+Producer produced 9586
+        Consumer consumes 3470
+        Consumer consumes 19760
+        Consumer consumes 87737
+        Consumer consumes 9586
+Producer produced 90916
+        Consumer consumes 90916
+Producer produced 29552
+        Consumer consumes 29552
+Producer produced 55958
+Producer produced 36873
+Producer produced 40802
+        Consumer consumes 55958
+        Consumer consumes 36873
+        Consumer consumes 40802
+Producer produced 9474
+Producer produced 44224
+        Consumer consumes 9474
+Producer produced 18684
+        Consumer consumes 44224
+Producer produced 92183
+Producer produced 98772
+        Consumer consumes 18684
+        Consumer consumes 92183
+        Consumer consumes 98772
+Producer produced 85944
+        Consumer consumes 85944
+Producer produced 84825
+        Consumer consumes 84825
+Producer produced 27515
+Producer produced 72147
+        Consumer consumes 27515
+Producer produced 30606
+Producer produced 16779
+Producer produced 74406
+Producer produced 4430
+        Consumer consumes 72147
+Producer produced 37345
+        Consumer consumes 30606
+Producer produced 64212
+        Consumer consumes 16779
+Producer produced 52668
+        Consumer consumes 74406
+Producer produced 15401
+        Consumer consumes 4430
+Producer produced 14280
+        Consumer consumes 37345
+Producer produced 17353
+Producer produced 80161
+        Consumer consumes 64212
+        Consumer consumes 52668
+Producer produced 53059
+        Consumer consumes 15401
+Producer produced 10990
+        Consumer consumes 14280
+        Consumer consumes 17353
+Producer produced 61290
+Producer produced 87445
+        Consumer consumes 80161
+Producer produced 59126
+        Consumer consumes 53059
+Producer produced 88184
+        Consumer consumes 10990
+Producer produced 42685
+        Consumer consumes 61290
+Producer produced 50896
+        Consumer consumes 87445
+Producer produced 28634
+        Consumer consumes 59126
+Producer produced 20546
+        Consumer consumes 88184
+Producer produced 31590
+        Consumer consumes 42685
+Producer produced 11915
+        Consumer consumes 50896
+Producer produced 13365
+        Consumer consumes 28634
+Producer produced 19624
+        Consumer consumes 20546
+Producer produced 75716
+        Consumer consumes 31590
+Producer produced 33810
+        Consumer consumes 11915
+Producer produced 88804
+        Consumer consumes 13365
+Producer produced 97121
+        Consumer consumes 19624
+Producer produced 49098
+        Consumer consumes 75716
+Producer produced 80276
+        Consumer consumes 33810
+Producer produced 9258
+        Consumer consumes 88804
+Producer produced 20965
+        Consumer consumes 97121
+Producer produced 89721
+        Consumer consumes 49098
+Producer produced 38339
+        Consumer consumes 80276
+Producer produced 60171
+        Consumer consumes 9258
+        Consumer consumes 20965
+        Consumer consumes 89721
+        Consumer consumes 38339
+        Consumer consumes 60171
+Producer produced 8463
+        Consumer consumes 8463
+Producer produced 50743
+        Consumer consumes 50743
+Producer produced 57848
+Producer produced 16420
+        Consumer consumes 57848
+        Consumer consumes 16420
+Producer produced 30525
+        Consumer consumes 30525
+Producer produced 45167
+        Consumer consumes 45167
+Producer produced 4425
+Producer produced 75984
+        Consumer consumes 4425
+        Consumer consumes 75984
+Producer produced 93332
+        Consumer consumes 93332
+Producer produced 93573
+        Consumer consumes 93573
+Producer produced 27345
+        Consumer consumes 27345
+Producer produced 44604
+        Consumer consumes 44604
+Producer produced 13793
+        Consumer consumes 13793
+Producer produced 68051
+        Consumer consumes 68051
+Producer produced 81567
+        Consumer consumes 81567
+Producer produced 70999
+        Consumer consumes 70999
+Producer produced 18778
+        Consumer consumes 18778
+Producer produced 34756
+        Consumer consumes 34756
+Producer produced 34187
+        Consumer consumes 34187
+Producer produced 37717
+Producer produced 12643
+Producer produced 84364
+Producer produced 77475
+        Consumer consumes 37717
+        Consumer consumes 12643
+Producer produced 2624
+        Consumer consumes 84364
+Producer produced 27981
+Producer produced 66755
+        Consumer consumes 77475
+Producer produced 40868
+        Consumer consumes 2624
+        Consumer consumes 27981
+Producer produced 48091
+Producer produced 89912
+Producer produced 71805
+        Consumer consumes 66755
+Producer produced 68581
+        Consumer consumes 40868
+Producer produced 81012
+        Consumer consumes 48091
+Producer produced 8601
+        Consumer consumes 89912
+Producer produced 16327
+        Consumer consumes 71805
+Producer produced 61036
+        Consumer consumes 68581
+Producer produced 83750
+        Consumer consumes 81012
+Producer produced 48535
+        Consumer consumes 8601
+Producer produced 11199
+        Consumer consumes 16327
+Producer produced 7588
+        Consumer consumes 61036
+Producer produced 86920
+        Consumer consumes 83750
+Producer produced 85776
+        Consumer consumes 48535
+Producer produced 42640
+        Consumer consumes 11199
+Producer produced 45574
+        Consumer consumes 7588
+Producer produced 40502
+        Consumer consumes 86920
+Producer produced 72344
+        Consumer consumes 85776
+Producer produced 29801
+        Consumer consumes 42640
+Producer produced 60756
+        Consumer consumes 45574
+Producer produced 33722
+        Consumer consumes 40502
+Producer produced 26113
+        Consumer consumes 72344
+Producer produced 78745
+        Consumer consumes 29801
+Producer produced 39013
+        Consumer consumes 60756
+Producer produced 88022
+        Consumer consumes 33722
+Producer produced 38358
+        Consumer consumes 26113
+Producer produced 4650
+        Consumer consumes 78745
+Producer produced 85690
+        Consumer consumes 39013
+Producer produced 22768
+        Consumer consumes 88022
+Producer produced 94177
+        Consumer consumes 38358
+        Consumer consumes 4650
+        Consumer consumes 85690
+        Consumer consumes 22768
+Producer produced 26839
+        Consumer consumes 94177
+Producer produced 94287
+Producer produced 86490
+        Consumer consumes 26839
+Producer produced 72173
+Producer produced 35275
+        Consumer consumes 94287
+        Consumer consumes 86490
+        Consumer consumes 72173
+        Consumer consumes 35275
+Producer produced 70317
+        Consumer consumes 70317
+Producer produced 79838
+Producer produced 77413
+        Consumer consumes 79838
+        Consumer consumes 77413
+Producer produced 5943
+        Consumer consumes 5943
+Producer produced 8925
+        Consumer consumes 8925
+Producer produced 56643
+        Consumer consumes 56643
+Producer produced 78459
+Producer produced 7503
+Producer produced 10199
+Producer produced 50686
+        Consumer consumes 78459
+        Consumer consumes 7503
+        Consumer consumes 10199
+Producer produced 37829
+        Consumer consumes 50686
+        Consumer consumes 37829
+Producer produced 65825
+Producer produced 80344
+        Consumer consumes 65825
+Producer produced 62071
+        Consumer consumes 80344
+Producer produced 29090
+Producer produced 99859
+        Consumer consumes 62071
+        Consumer consumes 29090
+Producer produced 78002
+        Consumer consumes 99859
+Producer produced 53686
+Producer produced 7931
+        Consumer consumes 78002
+Producer produced 70393
+        Consumer consumes 53686
+        Consumer consumes 7931
+        Consumer consumes 70393
+Producer produced 85213
+        Consumer consumes 85213
+Producer produced 46283
+        Consumer consumes 46283
+Producer produced 96900
+        Consumer consumes 96900
+Producer produced 77616
+Producer produced 3723
+Producer produced 35320
+Producer produced 77345
+Producer produced 19258
+        Consumer consumes 77616
+        Consumer consumes 3723
+Producer produced 94842
+        Consumer consumes 35320
+Producer produced 17755
+        Consumer consumes 77345
+Producer produced 43846
+        Consumer consumes 19258
+Producer produced 29110
+        Consumer consumes 94842
+Producer produced 86210
+Producer produced 15899
+        Consumer consumes 17755
+Producer produced 68662
+        Consumer consumes 43846
+Producer produced 43547
+        Consumer consumes 29110
+        Consumer consumes 86210
+Producer produced 86862
+        Consumer consumes 15899
+        Consumer consumes 68662
+Producer produced 4174
+        Consumer consumes 43547
+        Consumer consumes 86862
+        Consumer consumes 4174
+Producer produced 88301
+        Consumer consumes 88301
+Producer produced 55377
+        Consumer consumes 55377
+Producer produced 30215
+        Consumer consumes 30215
+Producer produced 67268
+        Consumer consumes 67268
+Producer produced 43577
+        Consumer consumes 43577
+Producer produced 18956
+        Consumer consumes 18956
+Producer produced 38828
+        Consumer consumes 38828
+Producer produced 58772
+        Consumer consumes 58772
+Producer produced 82339
+Producer produced 84613
+        Consumer consumes 82339
+Producer produced 20382
+        Consumer consumes 84613
+        Consumer consumes 20382
+Producer produced 36290
+        Consumer consumes 36290
+Producer produced 70060
+        Consumer consumes 70060
+Producer produced 83735
+        Consumer consumes 83735
+Producer produced 52856
+        Consumer consumes 52856
+Producer produced 87113
+        Consumer consumes 87113
+Producer produced 41202
+        Consumer consumes 41202
+Producer produced 47539
+        Consumer consumes 47539
+Producer produced 99132
+        Consumer consumes 99132
+Producer produced 5834
+        Consumer consumes 5834
+Producer produced 4146
+        Consumer consumes 4146
+Producer produced 37953
+        Consumer consumes 37953
+Producer produced 82152
+        Consumer consumes 82152
+Producer produced 2033
+        Consumer consumes 2033
+Producer produced 54855
+Producer produced 59220
+        Consumer consumes 54855
+        Consumer consumes 59220
+Producer produced 33959
+        Consumer consumes 33959
+Producer produced 86913
+        Consumer consumes 86913
+Producer produced 17424
+        Consumer consumes 17424
+Producer produced 13576
+        Consumer consumes 13576
+Producer produced 9603
+        Consumer consumes 9603
+Producer produced 41692
+        Consumer consumes 41692
+Producer produced 55376
+        Consumer consumes 55376
+Producer produced 69626
+        Consumer consumes 69626
+Producer produced 5272
+Producer produced 26320
+        Consumer consumes 5272
+        Consumer consumes 26320
+Producer produced 7631
+        Consumer consumes 7631
+Producer produced 65860
+Producer produced 31589
+Producer produced 3905
+        Consumer consumes 65860
+        Consumer consumes 31589
+        Consumer consumes 3905
+Producer produced 53630
+        Consumer consumes 53630
+Producer produced 54035
+        Consumer consumes 54035
+Producer produced 77148
+        Consumer consumes 77148
+Producer produced 39023
+Producer produced 43512
+        Consumer consumes 39023
+Producer produced 3783
+        Consumer consumes 43512
+        Consumer consumes 3783
+Producer produced 985
+Producer produced 73700
+        Consumer consumes 985
+        Consumer consumes 73700
+Producer produced 76547
+        Consumer consumes 76547
+Producer produced 29159
+        Consumer consumes 29159
+Producer produced 38351
+        Consumer consumes 38351
+Producer produced 91932
+        Consumer consumes 91932
+Producer produced 23894
+        Consumer consumes 23894
+Producer produced 43199
+        Consumer consumes 43199
+Producer produced 82045
+        Consumer consumes 82045
+Producer produced 96753
+        Consumer consumes 96753
+Producer produced 28661
+        Consumer consumes 28661
+Producer produced 41879
+Producer produced 31711
+        Consumer consumes 41879
+Producer produced 30466
+Producer produced 55799
+        Consumer consumes 31711
+        Consumer consumes 30466
+Producer produced 76977
+        Consumer consumes 55799
+Producer produced 77697
+Producer produced 48992
+Producer produced 18601
+Producer produced 40638
+        Consumer consumes 76977
+Producer produced 85486
+        Consumer consumes 77697
+        Consumer consumes 48992
+        Consumer consumes 18601
+        Consumer consumes 40638
+Producer produced 77749
+Producer produced 2603
+        Consumer consumes 85486
+Producer produced 54397
+        Consumer consumes 77749
+Producer produced 37031
+        Consumer consumes 2603
+        Consumer consumes 54397
+Producer produced 88401
+        Consumer consumes 37031
+Producer produced 30552
+Producer produced 31313
+        Consumer consumes 88401
+        Consumer consumes 30552
+Producer produced 74192
+        Consumer consumes 31313
+Producer produced 86226
+        Consumer consumes 74192
+Producer produced 3107
+        Consumer consumes 86226
+        Consumer consumes 3107
+Producer produced 95870
+        Consumer consumes 95870
+Producer produced 92708
+        Consumer consumes 92708
+Producer produced 8175
+        Consumer consumes 8175
+Producer produced 17404
+        Consumer consumes 17404
+Producer produced 51072
+        Consumer consumes 51072
+Producer produced 67912
+        Consumer consumes 67912
+Producer produced 39457
+        Consumer consumes 39457
+Producer produced 90130
+        Consumer consumes 90130
+Producer produced 77704
+Producer produced 8381
+Producer produced 64015
+Producer produced 50931
+        Consumer consumes 77704
+        Consumer consumes 8381
+        Consumer consumes 64015
+Producer produced 23188
+Producer produced 56911
+Producer produced 31284
+        Consumer consumes 50931
+        Consumer consumes 23188
+        Consumer consumes 56911
+Producer produced 57327
+        Consumer consumes 31284
+Producer produced 20202
+        Consumer consumes 57327
+Producer produced 26859
+        Consumer consumes 20202
+        Consumer consumes 26859
+Producer produced 64751
+Producer produced 55195
+        Consumer consumes 64751
+Producer produced 10705
+Producer produced 25965
+        Consumer consumes 55195
+        Consumer consumes 10705
+Producer produced 12487
+        Consumer consumes 25965
+        Consumer consumes 12487
+Producer produced 32241
+Producer produced 48012
+        Consumer consumes 32241
+        Consumer consumes 48012
+Producer produced 96183
+Producer produced 57465
+        Consumer consumes 96183
+        Consumer consumes 57465
+Producer produced 22260
+        Consumer consumes 22260
+Producer produced 17523
+Producer produced 92733
+        Consumer consumes 17523
+Producer produced 93312
+Producer produced 87601
+        Consumer consumes 92733
+        Consumer consumes 93312
+        Consumer consumes 87601
+Producer produced 7791
+Producer produced 18781
+        Consumer consumes 7791
+Producer produced 78207
+Producer produced 74177
+        Consumer consumes 18781
+        Consumer consumes 78207
+Producer produced 5778
+        Consumer consumes 74177
+Producer produced 53709
+Producer produced 94317
+Producer produced 62795
+        Consumer consumes 5778
+Producer produced 39953
+Producer produced 15181
+        Consumer consumes 53709
+        Consumer consumes 94317
+Producer produced 73502
+Producer produced 27366
+        Consumer consumes 62795
+Producer produced 37184
+        Consumer consumes 39953
+Producer produced 37802
+        Consumer consumes 15181
+Producer produced 62171
+        Consumer consumes 73502
+Producer produced 15452
+        Consumer consumes 27366
+        Consumer consumes 37184
+Producer produced 20488
+        Consumer consumes 37802
+Producer produced 59333
+Producer produced 95261
+        Consumer consumes 62171
+Producer produced 47530
+        Consumer consumes 15452
+Producer produced 31687
+        Consumer consumes 20488
+Producer produced 71800
+        Consumer consumes 59333
+Producer produced 922
+        Consumer consumes 95261
+Producer produced 35141
+        Consumer consumes 47530
+Producer produced 3684
+        Consumer consumes 31687
+Producer produced 73975
+        Consumer consumes 71800
+        Consumer consumes 922
+Producer produced 18669
+Producer produced 87766
+        Consumer consumes 35141
+Producer produced 13293
+        Consumer consumes 3684
+Producer produced 83240
+        Consumer consumes 73975
+Producer produced 73099
+        Consumer consumes 18669
+        Consumer consumes 87766
+        Consumer consumes 13293
+        Consumer consumes 83240
+Producer produced 20998
+Producer produced 95631
+Producer produced 23145
+Producer produced 25288
+        Consumer consumes 73099
+Producer produced 64533
+        Consumer consumes 20998
+Producer produced 45073
+        Consumer consumes 95631
+Producer produced 30816
+        Consumer consumes 23145
+Producer produced 93845
+        Consumer consumes 25288
+Producer produced 14339
+        Consumer consumes 64533
+Producer produced 29582
+        Consumer consumes 45073
+        Consumer consumes 30816
+Producer produced 20752
+Producer produced 31411
+        Consumer consumes 93845
+Producer produced 65073
+        Consumer consumes 14339
+Producer produced 31853
+        Consumer consumes 29582
+Producer produced 55398
+        Consumer consumes 20752
+Producer produced 953
+        Consumer consumes 31411
+Producer produced 12322
+        Consumer consumes 65073
+Producer produced 93150
+        Consumer consumes 31853
+Producer produced 82707
+        Consumer consumes 55398
+Producer produced 84957
+        Consumer consumes 953
+Producer produced 7100
+        Consumer consumes 12322
+Producer produced 2452
+        Consumer consumes 93150
+Producer produced 93717
+        Consumer consumes 82707
+        Consumer consumes 84957
+Producer produced 10691
+        Consumer consumes 7100
+        Consumer consumes 2452
+Producer produced 48843
+        Consumer consumes 93717
+Producer produced 58233
+Producer produced 98029
+        Consumer consumes 10691
+        Consumer consumes 48843
+        Consumer consumes 58233
+Producer produced 23712
+Producer produced 56804
+Producer produced 73618
+Producer produced 63573
+        Consumer consumes 98029
+Producer produced 82441
+        Consumer consumes 23712
+Producer produced 84422
+        Consumer consumes 56804
+        Consumer consumes 73618
+        Consumer consumes 63573
+Producer produced 16977
+Producer produced 90475
+        Consumer consumes 82441
+Producer produced 7357
+Producer produced 20060
+        Consumer consumes 84422
+Producer produced 49393
+        Consumer consumes 16977
+Producer produced 44070
+        Consumer consumes 90475
+Producer produced 18079
+        Consumer consumes 7357
+Producer produced 88299
+        Consumer consumes 20060
+Producer produced 15409
+        Consumer consumes 49393
+Producer produced 96586
+        Consumer consumes 44070
+Producer produced 21249
+        Consumer consumes 18079
+Producer produced 55801
+        Consumer consumes 88299
+Producer produced 84752
+        Consumer consumes 15409
+Producer produced 36950
+        Consumer consumes 96586
+Producer produced 24147
+        Consumer consumes 21249
+        Consumer consumes 55801
+Producer produced 92709
+        Consumer consumes 84752
+Producer produced 42593
+        Consumer consumes 36950
+Producer produced 81658
+Producer produced 17604
+        Consumer consumes 24147
+        Consumer consumes 92709
+Producer produced 35794
+        Consumer consumes 42593
+        Consumer consumes 81658
+Producer produced 36715
+        Consumer consumes 17604
+Producer produced 16197
+Producer produced 47540
+        Consumer consumes 35794
+        Consumer consumes 36715
+Producer produced 92486
+        Consumer consumes 16197
+Producer produced 93728
+        Consumer consumes 47540
+Producer produced 47581
+        Consumer consumes 92486
+Producer produced 39879
+Producer produced 58047
+        Consumer consumes 93728
+        Consumer consumes 47581
+        Consumer consumes 39879
+Producer produced 43320
+Producer produced 81544
+        Consumer consumes 58047
+Producer produced 50957
+Producer produced 23765
+        Consumer consumes 43320
+Producer produced 66057
+        Consumer consumes 81544
+Producer produced 72167
+        Consumer consumes 50957
+Producer produced 68659
+Producer produced 70331
+        Consumer consumes 23765
+Producer produced 40613
+        Consumer consumes 66057
+Producer produced 31907
+        Consumer consumes 72167
+Producer produced 27429
+        Consumer consumes 68659
+Producer produced 64388
+        Consumer consumes 70331
+        Consumer consumes 40613
+Producer produced 26449
+        Consumer consumes 31907
+        Consumer consumes 27429
+Producer produced 26367
+        Consumer consumes 64388
+Producer produced 37950
+Producer produced 31778
+Producer produced 64509
+        Consumer consumes 26449
+Producer produced 19277
+        Consumer consumes 26367
+Producer produced 66286
+        Consumer consumes 37950
+Producer produced 77321
+        Consumer consumes 31778
+Producer produced 56964
+        Consumer consumes 64509
+        Consumer consumes 19277
+        Consumer consumes 66286
+Producer produced 82685
+Producer produced 28326
+        Consumer consumes 77321
+Producer produced 95251
+Producer produced 57826
+        Consumer consumes 56964
+        Consumer consumes 82685
+Producer produced 12623
+        Consumer consumes 28326
+Producer produced 42851
+        Consumer consumes 95251
+Producer produced 29980
+        Consumer consumes 57826
+        Consumer consumes 12623
+Producer produced 60301
+        Consumer consumes 42851
+Producer produced 54505
+        Consumer consumes 29980
+Producer produced 95157
+        Consumer consumes 60301
+        Consumer consumes 54505
+        Consumer consumes 95157
+Producer produced 74510
+        Consumer consumes 74510
+Producer produced 94833
+        Consumer consumes 94833
+Producer produced 43461
+        Consumer consumes 43461
+Producer produced 86539
+        Consumer consumes 86539
+Producer produced 38711
+Producer produced 74380
+Producer produced 88802
+Producer produced 52989
+        Consumer consumes 38711
+Producer produced 69462
+        Consumer consumes 74380
+        Consumer consumes 88802
+        Consumer consumes 52989
+Producer produced 70691
+        Consumer consumes 69462
+Producer produced 33659
+        Consumer consumes 70691
+Producer produced 60822
+Producer produced 37108
+        Consumer consumes 33659
+        Consumer consumes 60822
+Producer produced 83807
+        Consumer consumes 37108
+        Consumer consumes 83807
+Producer produced 47988
+        Consumer consumes 47988
+Producer produced 99260
+        Consumer consumes 99260
+Producer produced 57999
+        Consumer consumes 57999
+Producer produced 22184
+        Consumer consumes 22184
+Producer produced 69008
+        Consumer consumes 69008
+Producer produced 72316
+        Consumer consumes 72316
+Producer produced 44754
+        Consumer consumes 44754
+Producer produced 24764
+        Consumer consumes 24764
+Producer produced 15296
+        Consumer consumes 15296
+Producer produced 48183
+        Consumer consumes 48183
+Producer produced 15392
+Producer produced 96907
+        Consumer consumes 15392
+        Consumer consumes 96907
+Producer produced 74646
+        Consumer consumes 74646
+Producer produced 96931
+        Consumer consumes 96931
+Producer produced 84432
+        Consumer consumes 84432
+Producer produced 45362
+        Consumer consumes 45362
+Producer produced 70839
+        Consumer consumes 70839
+Producer produced 80351
+        Consumer consumes 80351
+Producer produced 4402
+        Consumer consumes 4402
+Producer produced 91923
+        Consumer consumes 91923
+Producer produced 88847
+        Consumer consumes 88847
+Producer produced 61080
+        Consumer consumes 61080
+Producer produced 11312
+        Consumer consumes 11312
+Producer produced 20589
+        Consumer consumes 20589
+Producer produced 38335
+        Consumer consumes 38335
+Producer produced 40529
+        Consumer consumes 40529
+Producer produced 80
+        Consumer consumes 80
+Producer produced 925
+        Consumer consumes 925
+Producer produced 92945
+Producer produced 99538
+Producer produced 1461
+        Consumer consumes 92945
+        Consumer consumes 99538
+Producer produced 51793
+        Consumer consumes 1461
+Producer produced 34860
+        Consumer consumes 51793
+Producer produced 52335
+        Consumer consumes 34860
+Producer produced 78885
+        Consumer consumes 52335
+        Consumer consumes 78885
+Producer produced 8389
+        Consumer consumes 8389
+Producer produced 15171
+        Consumer consumes 15171
+Producer produced 76947
+        Consumer consumes 76947
+Producer produced 7557
+        Consumer consumes 7557
+Producer produced 82524
+        Consumer consumes 82524
+Producer produced 775
+        Consumer consumes 775
+Producer produced 25002
+        Consumer consumes 25002
+Producer produced 60096
+        Consumer consumes 60096
+Producer produced 95932
+        Consumer consumes 95932
+Producer produced 85053
+        Consumer consumes 85053
+Producer produced 85320
+        Consumer consumes 85320
+Producer produced 14855
+        Consumer consumes 14855
+Producer produced 16582
+        Consumer consumes 16582
+Producer produced 97451
+        Consumer consumes 97451
+Producer produced 39321
+        Consumer consumes 39321
+Producer produced 83762
+        Consumer consumes 83762
+Producer produced 43152
+        Consumer consumes 43152
+Producer produced 331
+        Consumer consumes 331
+Producer produced 71078
+Producer produced 46756
+        Consumer consumes 71078
+Producer produced 71233
+        Consumer consumes 46756
+Producer produced 99010
+        Consumer consumes 71233
+        Consumer consumes 99010
+Producer produced 62656
+        Consumer consumes 62656
+
+C:\Users\rudy9\OneDrive\Documents\University of Arkansas\4th Year 2020 - 2021\Spring 2020\CSCE 3613 - Operating Systems\Homework\Homework 05>
+java ProducerConsumer 20 20 20
+
+Using arguments from command line
+Sleep time = 20
+Producer threads = 20
+Consumer threads = 20
+
+Producer produced 79212
+        Consumer consumes 79212
+Producer produced 6837
+        Consumer consumes 6837
+Producer produced 69363
+        Consumer consumes 69363
+Producer produced 53208
+Producer produced 24589
+        Consumer consumes 53208
+Producer produced 78708
+Producer produced 33938
+        Consumer consumes 24589
+        Consumer consumes 78708
+        Consumer consumes 33938
+Producer produced 76435
+Producer produced 6580
+        Consumer consumes 76435
+        Consumer consumes 6580
+Producer produced 30755
+        Consumer consumes 30755
+Producer produced 41362
+        Consumer consumes 41362
+Producer produced 19489
+        Consumer consumes 19489
+Producer produced 70761
+        Consumer consumes 70761
+Producer produced 92041
+        Consumer consumes 92041
+Producer produced 35432
+        Consumer consumes 35432
+Producer produced 60670
+        Consumer consumes 60670
+Producer produced 86850
+        Consumer consumes 86850
+Producer produced 25204
+Producer produced 54802
+        Consumer consumes 25204
+        Consumer consumes 54802
+Producer produced 84100
+        Consumer consumes 84100
+Producer produced 29314
+        Consumer consumes 29314
+Producer produced 92459
+        Consumer consumes 92459
+Producer produced 41676
+        Consumer consumes 41676
+Producer produced 68082
+Producer produced 4226
+        Consumer consumes 68082
+        Consumer consumes 4226
+Producer produced 17199
+        Consumer consumes 17199
+Producer produced 33505
+        Consumer consumes 33505
+Producer produced 5304
+        Consumer consumes 5304
+Producer produced 91150
+Producer produced 57843
+        Consumer consumes 91150
+        Consumer consumes 57843
+Producer produced 87391
+        Consumer consumes 87391
+Producer produced 8834
+        Consumer consumes 8834
+Producer produced 74918
+        Consumer consumes 74918
+Producer produced 13877
+        Consumer consumes 13877
+Producer produced 50403
+        Consumer consumes 50403
+Producer produced 19615
+        Consumer consumes 19615
+Producer produced 93092
+        Consumer consumes 93092
+Producer produced 19416
+        Consumer consumes 19416
+Producer produced 36372
+        Consumer consumes 36372
+Producer produced 41228
+        Consumer consumes 41228
+Producer produced 81437
+        Consumer consumes 81437
+Producer produced 78623
+        Consumer consumes 78623
+Producer produced 98284
+        Consumer consumes 98284
+Producer produced 9858
+        Consumer consumes 9858
+Producer produced 56256
+        Consumer consumes 56256
+Producer produced 82952
+        Consumer consumes 82952
+Producer produced 4368
+        Consumer consumes 4368
+Producer produced 32633
+        Consumer consumes 32633
+Producer produced 32316
+Producer produced 94787
+        Consumer consumes 32316
+        Consumer consumes 94787
+Producer produced 26048
+        Consumer consumes 26048
+Producer produced 16375
+        Consumer consumes 16375
+Producer produced 90111
+        Consumer consumes 90111
+Producer produced 49198
+        Consumer consumes 49198
+Producer produced 28234
+        Consumer consumes 28234
+Producer produced 22202
+        Consumer consumes 22202
+Producer produced 96088
+        Consumer consumes 96088
+Producer produced 15822
+        Consumer consumes 15822
+Producer produced 29465
+        Consumer consumes 29465
+Producer produced 5853
+        Consumer consumes 5853
+Producer produced 70366
+        Consumer consumes 70366
+Producer produced 73548
+Producer produced 35819
+        Consumer consumes 73548
+        Consumer consumes 35819
+Producer produced 55530
+        Consumer consumes 55530
+Producer produced 76522
+        Consumer consumes 76522
+Producer produced 43273
+        Consumer consumes 43273
+Producer produced 64321
+        Consumer consumes 64321
+Producer produced 29116
+        Consumer consumes 29116
+Producer produced 82366
+        Consumer consumes 82366
+Producer produced 57120
+        Consumer consumes 57120
+Producer produced 92687
+        Consumer consumes 92687
+Producer produced 19408
+        Consumer consumes 19408
+Producer produced 75721
+        Consumer consumes 75721
+Producer produced 88886
+        Consumer consumes 88886
+Producer produced 63763
+        Consumer consumes 63763
+Producer produced 80648
+Producer produced 39395
+        Consumer consumes 80648
+        Consumer consumes 39395
+Producer produced 43264
+        Consumer consumes 43264
+Producer produced 59938
+        Consumer consumes 59938
+Producer produced 73051
+        Consumer consumes 73051
+Producer produced 60594
+        Consumer consumes 60594
+Producer produced 4562
+        Consumer consumes 4562
+Producer produced 89214
+        Consumer consumes 89214
+Producer produced 45053
+        Consumer consumes 45053
+Producer produced 13936
+        Consumer consumes 13936
+Producer produced 20447
+        Consumer consumes 20447
+Producer produced 29860
+        Consumer consumes 29860
+Producer produced 24198
+        Consumer consumes 24198
+Producer produced 18179
+        Consumer consumes 18179
+Producer produced 51026
+        Consumer consumes 51026
+Producer produced 24897
+        Consumer consumes 24897
+Producer produced 33249
+        Consumer consumes 33249
+Producer produced 50060
+        Consumer consumes 50060
+Producer produced 73416
+Producer produced 50565
+        Consumer consumes 73416
+        Consumer consumes 50565
+Producer produced 20403
+        Consumer consumes 20403
+Producer produced 26331
+        Consumer consumes 26331
+Producer produced 73927
+        Consumer consumes 73927
+Producer produced 9584
+        Consumer consumes 9584
+Producer produced 46790
+Producer produced 87487
+        Consumer consumes 46790
+        Consumer consumes 87487
+Producer produced 5503
+        Consumer consumes 5503
+Producer produced 75816
+        Consumer consumes 75816
+Producer produced 41682
+        Consumer consumes 41682
+Producer produced 85148
+Producer produced 31868
+        Consumer consumes 85148
+        Consumer consumes 31868
+Producer produced 79309
+        Consumer consumes 79309
+Producer produced 63655
+        Consumer consumes 63655
+Producer produced 76053
+        Consumer consumes 76053
+Producer produced 30469
+        Consumer consumes 30469
+Producer produced 54756
+Producer produced 19833
+        Consumer consumes 54756
+        Consumer consumes 19833
+Producer produced 49385
+        Consumer consumes 49385
+Producer produced 82196
+        Consumer consumes 82196
+Producer produced 14351
+        Consumer consumes 14351
+Producer produced 3687
+        Consumer consumes 3687
+Producer produced 44761
+        Consumer consumes 44761
+Producer produced 21330
+        Consumer consumes 21330
+Producer produced 82525
+        Consumer consumes 82525
+Producer produced 72426
+        Consumer consumes 72426
+Producer produced 17031
+        Consumer consumes 17031
+Producer produced 61487
+        Consumer consumes 61487
+Producer produced 14334
+        Consumer consumes 14334
+Producer produced 73239
+        Consumer consumes 73239
+Producer produced 62747
+        Consumer consumes 62747
+Producer produced 24442
+        Consumer consumes 24442
+Producer produced 85647
+        Consumer consumes 85647
+Producer produced 73234
+        Consumer consumes 73234
+Producer produced 67295
+        Consumer consumes 67295
+Producer produced 48227
+        Consumer consumes 48227
+Producer produced 24212
+        Consumer consumes 24212
+Producer produced 81967
+        Consumer consumes 81967
+Producer produced 72586
+        Consumer consumes 72586
+Producer produced 59371
+        Consumer consumes 59371
+Producer produced 45027
+        Consumer consumes 45027
+Producer produced 36869
+        Consumer consumes 36869
+Producer produced 62874
+        Consumer consumes 62874
+Producer produced 18116
+        Consumer consumes 18116
+Producer produced 11773
+        Consumer consumes 11773
+Producer produced 20498
+        Consumer consumes 20498
+Producer produced 282
+        Consumer consumes 282
+Producer produced 26987
+        Consumer consumes 26987
+Producer produced 6808
+        Consumer consumes 6808
+Producer produced 21957
+        Consumer consumes 21957
+Producer produced 94435
+        Consumer consumes 94435
+Producer produced 83742
+        Consumer consumes 83742
+Producer produced 15159
+        Consumer consumes 15159
+Producer produced 76940
+        Consumer consumes 76940
+Producer produced 72191
+        Consumer consumes 72191
+Producer produced 42235
+        Consumer consumes 42235
+Producer produced 63547
+        Consumer consumes 63547
+Producer produced 94522
+        Consumer consumes 94522
+Producer produced 66665
+        Consumer consumes 66665
+Producer produced 52759
+        Consumer consumes 52759
+Producer produced 49362
+        Consumer consumes 49362
+Producer produced 86996
+Producer produced 58255
+        Consumer consumes 86996
+        Consumer consumes 58255
+Producer produced 76536
+Producer produced 38190
+        Consumer consumes 76536
+        Consumer consumes 38190
+Producer produced 26425
+Producer produced 72985
+Producer produced 19376
+Producer produced 52849
+        Consumer consumes 26425
+        Consumer consumes 72985
+        Consumer consumes 19376
+        Consumer consumes 52849
+Producer produced 41612
+Producer produced 60868
+        Consumer consumes 41612
+        Consumer consumes 60868
+Producer produced 55414
+        Consumer consumes 55414
+Producer produced 17444
+        Consumer consumes 17444
+Producer produced 22431
+        Consumer consumes 22431
+Producer produced 90823
+        Consumer consumes 90823
+Producer produced 11682
+        Consumer consumes 11682
+Producer produced 22887
+        Consumer consumes 22887
+Producer produced 57918
+        Consumer consumes 57918
+Producer produced 51927
+        Consumer consumes 51927
+Producer produced 94629
+        Consumer consumes 94629
+Producer produced 99810
+        Consumer consumes 99810
+Producer produced 87829
+        Consumer consumes 87829
+Producer produced 3878
+        Consumer consumes 3878
+Producer produced 46435
+        Consumer consumes 46435
+Producer produced 37082
+Producer produced 82014
+Producer produced 1926
+Producer produced 26830
+        Consumer consumes 37082
+Producer produced 89376
+Producer produced 44907
+        Consumer consumes 82014
+        Consumer consumes 1926
+        Consumer consumes 26830
+        Consumer consumes 89376
+        Consumer consumes 44907
+Producer produced 29227
+Producer produced 4672
+        Consumer consumes 29227
+        Consumer consumes 4672
+Producer produced 17987
+        Consumer consumes 17987
+Producer produced 68588
+        Consumer consumes 68588
+Producer produced 71342
+        Consumer consumes 71342
+Producer produced 35445
+        Consumer consumes 35445
+Producer produced 38054
+        Consumer consumes 38054
+Producer produced 84318
+        Consumer consumes 84318
+Producer produced 37965
+        Consumer consumes 37965
+Producer produced 85058
+        Consumer consumes 85058
+Producer produced 76876
+        Consumer consumes 76876
+Producer produced 69937
+        Consumer consumes 69937
+Producer produced 86384
+        Consumer consumes 86384
+Producer produced 57334
+        Consumer consumes 57334
+Producer produced 62159
+        Consumer consumes 62159
+Producer produced 55412
+        Consumer consumes 55412
+Producer produced 81447
+        Consumer consumes 81447
+Producer produced 78091
+        Consumer consumes 78091
+Producer produced 19056
+        Consumer consumes 19056
+Producer produced 37406
+        Consumer consumes 37406
+Producer produced 1456
+        Consumer consumes 1456
+Producer produced 12457
+Producer produced 66760
+Producer produced 49307
+Producer produced 54676
+Producer produced 31448
+        Consumer consumes 12457
+        Consumer consumes 66760
+        Consumer consumes 49307
+Producer produced 63005
+Producer produced 74546
+        Consumer consumes 54676
+Producer produced 91601
+Producer produced 37791
+        Consumer consumes 31448
+Producer produced 54065
+        Consumer consumes 63005
+        Consumer consumes 74546
+Producer produced 99024
+        Consumer consumes 91601
+        Consumer consumes 37791
+        Consumer consumes 54065
+Producer produced 82386
+Producer produced 51614
+        Consumer consumes 99024
+        Consumer consumes 82386
+Producer produced 67605
+        Consumer consumes 51614
+Producer produced 69587
+        Consumer consumes 67605
+Producer produced 90138
+Producer produced 22692
+        Consumer consumes 69587
+Producer produced 15482
+        Consumer consumes 90138
+        Consumer consumes 22692
+Producer produced 99220
+Producer produced 39551
+Producer produced 69390
+        Consumer consumes 15482
+Producer produced 78312
+Producer produced 79601
+        Consumer consumes 99220
+Producer produced 82099
+        Consumer consumes 39551
+Producer produced 32285
+        Consumer consumes 69390
+Producer produced 18503
+        Consumer consumes 78312
+        Consumer consumes 79601
+        Consumer consumes 82099
+        Consumer consumes 32285
+Producer produced 63606
+Producer produced 84447
+        Consumer consumes 18503
+Producer produced 54099
+        Consumer consumes 63606
+Producer produced 4986
+Producer produced 90184
+        Consumer consumes 84447
+Producer produced 48424
+Producer produced 83241
+        Consumer consumes 4986
+Producer produced 24301
+        Consumer consumes 54099
+Producer produced 85133
+        Consumer consumes 90184
+Producer produced 76915
+        Consumer consumes 83241
+        Consumer consumes 48424
+Producer produced 89616
+Producer produced 21763
+        Consumer consumes 24301
+        Consumer consumes 85133
+        Consumer consumes 76915
+        Consumer consumes 89616
+Producer produced 18876
+        Consumer consumes 21763
+Producer produced 46660
+Producer produced 23138
+        Consumer consumes 18876
+        Consumer consumes 46660
+Producer produced 33874
+        Consumer consumes 23138
+Producer produced 86141
+        Consumer consumes 33874
+Producer produced 8130
+        Consumer consumes 86141
+        Consumer consumes 8130
+Producer produced 71876
+        Consumer consumes 71876
+Producer produced 88266
+        Consumer consumes 88266
+Producer produced 14396
+        Consumer consumes 14396
+Producer produced 85495
+        Consumer consumes 85495
+Producer produced 42331
+        Consumer consumes 42331
+Producer produced 84816
+        Consumer consumes 84816
+Producer produced 25039
+        Consumer consumes 25039
+Producer produced 13223
+Producer produced 10899
+        Consumer consumes 13223
+        Consumer consumes 10899
+Producer produced 30281
+Producer produced 87393
+        Consumer consumes 30281
+        Consumer consumes 87393
+Producer produced 68080
+        Consumer consumes 68080
+Producer produced 49792
+        Consumer consumes 49792
+Producer produced 36913
+        Consumer consumes 36913
+Producer produced 37146
+        Consumer consumes 37146
+Producer produced 40273
+Producer produced 4972
+        Consumer consumes 40273
+        Consumer consumes 4972
+Producer produced 48396
+        Consumer consumes 48396
+Producer produced 61101
+        Consumer consumes 61101
+Producer produced 33507
+        Consumer consumes 33507
+Producer produced 56027
+        Consumer consumes 56027
+Producer produced 75828
+        Consumer consumes 75828
+Producer produced 63807
+        Consumer consumes 63807
+Producer produced 83845
+        Consumer consumes 83845
+Producer produced 84415
+Producer produced 12369
+        Consumer consumes 84415
+Producer produced 15471
+        Consumer consumes 12369
+Producer produced 79716
+Producer produced 72171
+Producer produced 47014
+        Consumer consumes 15471
+        Consumer consumes 79716
+        Consumer consumes 72171
+        Consumer consumes 47014
+Producer produced 62278
+        Consumer consumes 62278
+Producer produced 46431
+        Consumer consumes 46431
+Producer produced 86374
+        Consumer consumes 86374
+Producer produced 63464
+        Consumer consumes 63464
+Producer produced 955
+        Consumer consumes 955
+Producer produced 43050
+        Consumer consumes 43050
+Producer produced 108
+        Consumer consumes 108
+Producer produced 86090
+        Consumer consumes 86090
+Producer produced 24803
+        Consumer consumes 24803
+Producer produced 30765
+        Consumer consumes 30765
+Producer produced 74370
+        Consumer consumes 74370
+Producer produced 23155
+        Consumer consumes 23155
+Producer produced 10676
+        Consumer consumes 10676
+Producer produced 72204
+        Consumer consumes 72204
+Producer produced 55635
+Producer produced 11249
+        Consumer consumes 55635
+        Consumer consumes 11249
+Producer produced 65717
+        Consumer consumes 65717
+Producer produced 89538
+        Consumer consumes 89538
+Producer produced 52620
+        Consumer consumes 52620
+Producer produced 83143
+        Consumer consumes 83143
+Producer produced 76132
+        Consumer consumes 76132
+Producer produced 42406
+        Consumer consumes 42406
+Producer produced 68241
+Producer produced 45282
+        Consumer consumes 68241
+        Consumer consumes 45282
+Producer produced 27619
+        Consumer consumes 27619
+Producer produced 44240
+        Consumer consumes 44240
+Producer produced 66842
+        Consumer consumes 66842
+Producer produced 16585
+        Consumer consumes 16585
+Producer produced 9088
+        Consumer consumes 9088
+Producer produced 33717
+        Consumer consumes 33717
+Producer produced 53773
+        Consumer consumes 53773
+Producer produced 28594
+Producer produced 9119
+        Consumer consumes 28594
+        Consumer consumes 9119
+Producer produced 28557
+        Consumer consumes 28557
+Producer produced 79001
+Producer produced 42834
+Producer produced 24870
+        Consumer consumes 79001
+        Consumer consumes 42834
+        Consumer consumes 24870
+Producer produced 21590
+        Consumer consumes 21590
+Producer produced 47692
+        Consumer consumes 47692
+Producer produced 30125
+        Consumer consumes 30125
+Producer produced 59428
+        Consumer consumes 59428
+Producer produced 81202
+Producer produced 72658
+        Consumer consumes 81202
+        Consumer consumes 72658
+Producer produced 82667
+        Consumer consumes 82667
+Producer produced 15487
+Producer produced 43
+Producer produced 49962
+Producer produced 33707
+Producer produced 87130
+        Consumer consumes 15487
+        Consumer consumes 43
+        Consumer consumes 49962
+Producer produced 12854
+        Consumer consumes 33707
+Producer produced 22055
+Producer produced 39793
+        Consumer consumes 87130
+        Consumer consumes 12854
+Producer produced 51359
+        Consumer consumes 22055
+        Consumer consumes 39793
+Producer produced 21429
+        Consumer consumes 51359
+Producer produced 69312
+Producer produced 97914
+        Consumer consumes 21429
+        Consumer consumes 69312
+        Consumer consumes 97914
+Producer produced 14382
+        Consumer consumes 14382
+Producer produced 4279
+        Consumer consumes 4279
+Producer produced 62260
+        Consumer consumes 62260
+Producer produced 76273
+Producer produced 70434
+        Consumer consumes 76273
+Producer produced 15770
+        Consumer consumes 70434
+Producer produced 62558
+Producer produced 15419
+        Consumer consumes 15770
+Producer produced 7644
+Producer produced 91601
+        Consumer consumes 62558
+Producer produced 11888
+        Consumer consumes 15419
+        Consumer consumes 7644
+        Consumer consumes 91601
+        Consumer consumes 11888
+Producer produced 620
+Producer produced 21615
+        Consumer consumes 620
+Producer produced 97792
+Producer produced 44719
+Producer produced 65020
+Producer produced 50503
+        Consumer consumes 21615
+Producer produced 67204
+        Consumer consumes 97792
+        Consumer consumes 44719
+        Consumer consumes 65020
+        Consumer consumes 50503
+        Consumer consumes 67204
+Producer produced 61259
+        Consumer consumes 61259
+Producer produced 58292
+        Consumer consumes 58292
+Producer produced 41750
+        Consumer consumes 41750
+Producer produced 8336
+        Consumer consumes 8336
+Producer produced 78745
+Producer produced 6594
+        Consumer consumes 78745
+Producer produced 16125
+Producer produced 57393
+Producer produced 78831
+Producer produced 96365
+        Consumer consumes 6594
+Producer produced 11091
+        Consumer consumes 16125
+Producer produced 68595
+        Consumer consumes 57393
+Producer produced 14780
+        Consumer consumes 78831
+        Consumer consumes 96365
+Producer produced 9986
+Producer produced 18421
+        Consumer consumes 11091
+Producer produced 64317
+Producer produced 26380
+        Consumer consumes 68595
+        Consumer consumes 14780
+Producer produced 9154
+        Consumer consumes 9986
+Producer produced 93162
+        Consumer consumes 18421
+Producer produced 92888
+        Consumer consumes 64317
+Producer produced 27248
+        Consumer consumes 26380
+Producer produced 91266
+        Consumer consumes 9154
+Producer produced 99378
+        Consumer consumes 93162
+Producer produced 70765
+        Consumer consumes 92888
+Producer produced 13248
+        Consumer consumes 27248
+Producer produced 81467
+        Consumer consumes 91266
+Producer produced 34058
+        Consumer consumes 99378
+Producer produced 69963
+        Consumer consumes 70765
+Producer produced 29545
+        Consumer consumes 13248
+Producer produced 48029
+        Consumer consumes 81467
+Producer produced 69599
+        Consumer consumes 34058
+        Consumer consumes 69963
+        Consumer consumes 29545
+Producer produced 22536
+Producer produced 90018
+        Consumer consumes 48029
+Producer produced 69010
+Producer produced 82029
+        Consumer consumes 69599
+Producer produced 56575
+        Consumer consumes 22536
+Producer produced 7444
+        Consumer consumes 90018
+        Consumer consumes 69010
+        Consumer consumes 82029
+Producer produced 27644
+Producer produced 48050
+Producer produced 12120
+        Consumer consumes 56575
+Producer produced 50235
+        Consumer consumes 7444
+Producer produced 60287
+        Consumer consumes 27644
+Producer produced 49364
+        Consumer consumes 48050
+Producer produced 54661
+Producer produced 74492
+        Consumer consumes 12120
+        Consumer consumes 50235
+Producer produced 74617
+        Consumer consumes 60287
+Producer produced 90815
+        Consumer consumes 49364
+Producer produced 72907
+        Consumer consumes 54661
+Producer produced 58024
+        Consumer consumes 74492
+Producer produced 4183
+        Consumer consumes 74617
+Producer produced 64364
+        Consumer consumes 90815
+        Consumer consumes 72907
+        Consumer consumes 58024
+        Consumer consumes 4183
+        Consumer consumes 64364
+Producer produced 38642
+        Consumer consumes 38642
+Producer produced 65272
+        Consumer consumes 65272
+Producer produced 9326
+        Consumer consumes 9326
+Producer produced 26131
+        Consumer consumes 26131
+Producer produced 76646
+Producer produced 7292
+Producer produced 50210
+        Consumer consumes 76646
+        Consumer consumes 7292
+        Consumer consumes 50210
+Producer produced 14413
+        Consumer consumes 14413
+Producer produced 82748
+        Consumer consumes 82748
+Producer produced 75118
+        Consumer consumes 75118
+Producer produced 38834
+Producer produced 38079
+        Consumer consumes 38834
+Producer produced 44802
+        Consumer consumes 38079
+Producer produced 66122
+Producer produced 86634
+        Consumer consumes 44802
+Producer produced 53751
+Producer produced 64061
+        Consumer consumes 66122
+Producer produced 58959
+Producer produced 50427
+        Consumer consumes 86634
+Producer produced 95597
+        Consumer consumes 53751
+Producer produced 53788
+        Consumer consumes 64061
+Producer produced 22573
+        Consumer consumes 58959
+Producer produced 34059
+        Consumer consumes 50427
+Producer produced 80437
+        Consumer consumes 95597
+Producer produced 34126
+        Consumer consumes 53788
+Producer produced 46635
+        Consumer consumes 22573
+Producer produced 35693
+        Consumer consumes 34059
+Producer produced 22403
+        Consumer consumes 80437
+Producer produced 37339
+        Consumer consumes 34126
+        Consumer consumes 46635
+        Consumer consumes 35693
+Producer produced 55751
+Producer produced 70444
+Producer produced 48507
+        Consumer consumes 22403
+        Consumer consumes 37339
+Producer produced 17837
+        Consumer consumes 55751
+        Consumer consumes 70444
+        Consumer consumes 48507
+        Consumer consumes 17837
+Producer produced 95819
+Producer produced 95234
+        Consumer consumes 95819
+        Consumer consumes 95234
+Producer produced 57365
+        Consumer consumes 57365
+Producer produced 46497
+        Consumer consumes 46497
+Producer produced 69560
+        Consumer consumes 69560
+Producer produced 12645
+        Consumer consumes 12645
+Producer produced 82314
+        Consumer consumes 82314
+Producer produced 27191
+        Consumer consumes 27191
+Producer produced 86258
+        Consumer consumes 86258
+Producer produced 96320
+Producer produced 86141
+        Consumer consumes 96320
+Producer produced 31158
+        Consumer consumes 86141
+Producer produced 86648
+        Consumer consumes 31158
+        Consumer consumes 86648
+Producer produced 94751
+        Consumer consumes 94751
+Producer produced 55785
+Producer produced 28718
+        Consumer consumes 55785
+Producer produced 53918
+        Consumer consumes 28718
+        Consumer consumes 53918
+Producer produced 30883
+Producer produced 98530
+Producer produced 83253
+        Consumer consumes 30883
+Producer produced 25864
+        Consumer consumes 98530
+        Consumer consumes 83253
+        Consumer consumes 25864
+Producer produced 44822
+        Consumer consumes 44822
+Producer produced 34570
+        Consumer consumes 34570
+Producer produced 88051
+        Consumer consumes 88051
+Producer produced 31270
+        Consumer consumes 31270
+Producer produced 81689
+        Consumer consumes 81689
+Producer produced 404
+Producer produced 54137
+        Consumer consumes 404
+        Consumer consumes 54137
+Producer produced 7399
+        Consumer consumes 7399
+Producer produced 8441
+        Consumer consumes 8441
+Producer produced 95821
+Producer produced 74924
+        Consumer consumes 95821
+        Consumer consumes 74924
+Producer produced 50043
+        Consumer consumes 50043
+Producer produced 23489
+        Consumer consumes 23489
+Producer produced 61451
+        Consumer consumes 61451
+Producer produced 66016
+Producer produced 6089
+Producer produced 38408
+Producer produced 19221
+Producer produced 43519
+        Consumer consumes 66016
+Producer produced 65705
+        Consumer consumes 6089
+Producer produced 98635
+        Consumer consumes 38408
+        Consumer consumes 19221
+        Consumer consumes 43519
+        Consumer consumes 65705
+Producer produced 36813
+Producer produced 63401
+        Consumer consumes 98635
+        Consumer consumes 36813
+        Consumer consumes 63401
+Producer produced 53983
+        Consumer consumes 53983
+Producer produced 30517
+        Consumer consumes 30517
+Producer produced 56854
+        Consumer consumes 56854
+Producer produced 35029
+        Consumer consumes 35029
+Producer produced 60532
+        Consumer consumes 60532
+Producer produced 36378
+        Consumer consumes 36378
+Producer produced 52006
+        Consumer consumes 52006
+Producer produced 53205
+        Consumer consumes 53205
+Producer produced 92211
+        Consumer consumes 92211
+Producer produced 94115
+Producer produced 42793
+        Consumer consumes 94115
+        Consumer consumes 42793
+Producer produced 5911
+Producer produced 98877
+        Consumer consumes 5911
+        Consumer consumes 98877
+Producer produced 47556
+        Consumer consumes 47556
+Producer produced 11535
+Producer produced 37032
+Producer produced 86058
+        Consumer consumes 11535
+        Consumer consumes 37032
+Producer produced 29514
+Producer produced 82355
+        Consumer consumes 86058
+Producer produced 78676
+Producer produced 57981
+        Consumer consumes 29514
+Producer produced 41776
+Producer produced 97257
+        Consumer consumes 82355
+        Consumer consumes 78676
+        Consumer consumes 57981
+        Consumer consumes 41776
+        Consumer consumes 97257
+Producer produced 30536
+        Consumer consumes 30536
+Producer produced 57986
+        Consumer consumes 57986
+Producer produced 5776
+        Consumer consumes 5776
+Producer produced 69892
+        Consumer consumes 69892
+Producer produced 1177
+        Consumer consumes 1177
+Producer produced 54278
+        Consumer consumes 54278
+Producer produced 66742
+        Consumer consumes 66742
+Producer produced 3905
+        Consumer consumes 3905
+Producer produced 73565
+        Consumer consumes 73565
+Producer produced 61235
+        Consumer consumes 61235
+Producer produced 91376
+        Consumer consumes 91376
+Producer produced 46291
+        Consumer consumes 46291
+Producer produced 21846
+        Consumer consumes 21846
+Producer produced 50567
+        Consumer consumes 50567
+Producer produced 38978
+Producer produced 5996
+        Consumer consumes 38978
+        Consumer consumes 5996
+Producer produced 52975
+        Consumer consumes 52975
+Producer produced 3984
+        Consumer consumes 3984
+Producer produced 36951
+Producer produced 50596
+Producer produced 64671
+        Consumer consumes 36951
+Producer produced 81926
+        Consumer consumes 50596
+Producer produced 23697
+        Consumer consumes 64671
+        Consumer consumes 81926
+Producer produced 37001
+Producer produced 81227
+        Consumer consumes 23697
+        Consumer consumes 37001
+Producer produced 22020
+Producer produced 62145
+        Consumer consumes 81227
+        Consumer consumes 22020
+        Consumer consumes 62145
+Producer produced 56260
+        Consumer consumes 56260
+Producer produced 1416
+        Consumer consumes 1416
+Producer produced 28837
+        Consumer consumes 28837
+Producer produced 86898
+        Consumer consumes 86898
+Producer produced 18819
+Producer produced 94974
+        Consumer consumes 18819
+        Consumer consumes 94974
+Producer produced 80791
+        Consumer consumes 80791
+Producer produced 48576
+        Consumer consumes 48576
+Producer produced 61929
+        Consumer consumes 61929
+Producer produced 14280
+        Consumer consumes 14280
+Producer produced 90751
+        Consumer consumes 90751
+Producer produced 9382
+        Consumer consumes 9382
+Producer produced 76558
+        Consumer consumes 76558
+Producer produced 28087
+        Consumer consumes 28087
+Producer produced 44169
+        Consumer consumes 44169
+Producer produced 20853
+        Consumer consumes 20853
+Producer produced 2164
+        Consumer consumes 2164
+Producer produced 22966
+        Consumer consumes 22966
+Producer produced 46633
+        Consumer consumes 46633
+Producer produced 3969
+        Consumer consumes 3969
+Producer produced 32359
+Producer produced 31945
+        Consumer consumes 32359
+        Consumer consumes 31945
+Producer produced 82995
+        Consumer consumes 82995
+Producer produced 95540
+        Consumer consumes 95540
+Producer produced 18736
+        Consumer consumes 18736
+Producer produced 83375
+        Consumer consumes 83375
+Producer produced 76051
+Producer produced 60294
+Producer produced 79287
+Producer produced 27846
+Producer produced 8234
+        Consumer consumes 76051
+Producer produced 94468
+        Consumer consumes 60294
+Producer produced 64786
+        Consumer consumes 79287
+Producer produced 5453
+        Consumer consumes 27846
+        Consumer consumes 8234
+        Consumer consumes 94468
+Producer produced 97287
+        Consumer consumes 64786
+Producer produced 32269
+Producer produced 14798
+        Consumer consumes 5453
+Producer produced 12228
+Producer produced 14653
+        Consumer consumes 97287
+Producer produced 26908
+        Consumer consumes 32269
+Producer produced 99704
+        Consumer consumes 12228
+Producer produced 34320
+        Consumer consumes 14798
+Producer produced 94886
+        Consumer consumes 14653
+Producer produced 89760
+        Consumer consumes 26908
+Producer produced 54217
+        Consumer consumes 99704
+Producer produced 39644
+        Consumer consumes 34320
+Producer produced 55956
+        Consumer consumes 94886
+Producer produced 75623
+        Consumer consumes 89760
+Producer produced 7276
+        Consumer consumes 54217
+Producer produced 87705
+        Consumer consumes 39644
+Producer produced 8303
+        Consumer consumes 55956
+Producer produced 31768
+        Consumer consumes 75623
+Producer produced 83149
+Producer produced 49733
+        Consumer consumes 7276
+        Consumer consumes 87705
+Producer produced 16113
+        Consumer consumes 8303
+Producer produced 71520
+        Consumer consumes 31768
+Producer produced 71200
+        Consumer consumes 83149
+Producer produced 56714
+        Consumer consumes 49733
+Producer produced 53434
+        Consumer consumes 16113
+Producer produced 12925
+        Consumer consumes 71520
+Producer produced 49552
+        Consumer consumes 71200
+Producer produced 95205
+        Consumer consumes 56714
+Producer produced 60907
+        Consumer consumes 53434
+Producer produced 67862
+        Consumer consumes 12925
+Producer produced 56689
+        Consumer consumes 49552
+Producer produced 64071
+        Consumer consumes 95205
+Producer produced 39254
+        Consumer consumes 60907
+Producer produced 74179
+        Consumer consumes 67862
+Producer produced 44668
+        Consumer consumes 64071
+        Consumer consumes 56689
+Producer produced 74816
+Producer produced 63880
+        Consumer consumes 39254
+Producer produced 12553
+        Consumer consumes 74179
+Producer produced 76359
+        Consumer consumes 44668
+Producer produced 45591
+        Consumer consumes 74816
+        Consumer consumes 63880
+Producer produced 88433
+Producer produced 48230
+        Consumer consumes 12553
+        Consumer consumes 76359
+Producer produced 33605
+        Consumer consumes 45591
+Producer produced 68622
+        Consumer consumes 88433
+        Consumer consumes 48230
+        Consumer consumes 33605
+Producer produced 37385
+        Consumer consumes 68622
+        Consumer consumes 37385
+Producer produced 75434
+        Consumer consumes 75434
+Producer produced 44176
+        Consumer consumes 44176
+Producer produced 3170
+        Consumer consumes 3170
+Producer produced 44142
+Producer produced 42254
+        Consumer consumes 44142
+        Consumer consumes 42254
+Producer produced 31026
+Producer produced 46217
+        Consumer consumes 31026
+        Consumer consumes 46217
+Producer produced 91581
+        Consumer consumes 91581
+Producer produced 76479
+        Consumer consumes 76479
+Producer produced 81225
+        Consumer consumes 81225
+Producer produced 11284
+        Consumer consumes 11284
+Producer produced 46669
+Producer produced 8786
+        Consumer consumes 46669
+        Consumer consumes 8786
+Producer produced 46075
+        Consumer consumes 46075
+Producer produced 53044
+        Consumer consumes 53044
+Producer produced 84009
+        Consumer consumes 84009
+Producer produced 53244
+Producer produced 63479
+Producer produced 40664
+        Consumer consumes 53244
+Producer produced 43016
+Producer produced 569
+Producer produced 76995
+        Consumer consumes 63479
+Producer produced 34260
+        Consumer consumes 40664
+Producer produced 83659
+        Consumer consumes 43016
+Producer produced 74
+        Consumer consumes 569
+Producer produced 25575
+        Consumer consumes 76995
+Producer produced 85022
+        Consumer consumes 34260
+Producer produced 70098
+        Consumer consumes 83659
+Producer produced 10236
+        Consumer consumes 74
+Producer produced 29782
+        Consumer consumes 25575
+Producer produced 64850
+        Consumer consumes 85022
+Producer produced 30011
+        Consumer consumes 70098
+Producer produced 12291
+        Consumer consumes 10236
+Producer produced 27348
+        Consumer consumes 29782
+Producer produced 47478
+        Consumer consumes 64850
+Producer produced 44312
+        Consumer consumes 30011
+Producer produced 79782
+        Consumer consumes 12291
+Producer produced 17256
+        Consumer consumes 27348
+Producer produced 51647
+        Consumer consumes 47478
+Producer produced 9271
+        Consumer consumes 44312
+Producer produced 17195
+        Consumer consumes 79782
+Producer produced 24499
+        Consumer consumes 17256
+Producer produced 46482
+        Consumer consumes 51647
+        Consumer consumes 9271
+Producer produced 30497
+        Consumer consumes 17195
+Producer produced 18515
+        Consumer consumes 24499
+Producer produced 85594
+Producer produced 98735
+        Consumer consumes 46482
+Producer produced 45001
+        Consumer consumes 30497
+Producer produced 46840
+        Consumer consumes 18515
+        Consumer consumes 85594
+        Consumer consumes 98735
+Producer produced 6998
+        Consumer consumes 45001
+Producer produced 16903
+        Consumer consumes 46840
+Producer produced 80592
+Producer produced 35059
+Producer produced 40790
+        Consumer consumes 6998
+Producer produced 99814
+        Consumer consumes 16903
+        Consumer consumes 80592
+        Consumer consumes 35059
+        Consumer consumes 40790
+Producer produced 57914
+Producer produced 69091
+Producer produced 76975
+Producer produced 52171
+Producer produced 65552
+        Consumer consumes 99814
+        Consumer consumes 57914
+Producer produced 30366
+        Consumer consumes 69091
+Producer produced 84840
+        Consumer consumes 76975
+Producer produced 66253
+        Consumer consumes 52171
+Producer produced 82878
+        Consumer consumes 65552
+Producer produced 97205
+        Consumer consumes 30366
+Producer produced 76043
+        Consumer consumes 84840
+Producer produced 64792
+        Consumer consumes 66253
+Producer produced 75586
+        Consumer consumes 82878
+Producer produced 46147
+        Consumer consumes 97205
+Producer produced 30884
+        Consumer consumes 76043
+Producer produced 82288
+        Consumer consumes 64792
+Producer produced 29237
+        Consumer consumes 75586
+Producer produced 14082
+        Consumer consumes 46147
+Producer produced 2486
+        Consumer consumes 30884
+Producer produced 27015
+        Consumer consumes 82288
+Producer produced 8618
+        Consumer consumes 29237
+Producer produced 69706
+        Consumer consumes 14082
+Producer produced 31836
+        Consumer consumes 2486
+Producer produced 11954
+        Consumer consumes 27015
+        Consumer consumes 8618
+Producer produced 42661
+        Consumer consumes 69706
+Producer produced 66896
+Producer produced 51267
+        Consumer consumes 31836
+        Consumer consumes 11954
+        Consumer consumes 42661
+Producer produced 80918
+        Consumer consumes 66896
+Producer produced 67169
+Producer produced 43349
+Producer produced 80841
+        Consumer consumes 51267
+Producer produced 53305
+        Consumer consumes 80918
+        Consumer consumes 67169
+Producer produced 20809
+Producer produced 17528
+        Consumer consumes 43349
+        Consumer consumes 80841
+        Consumer consumes 53305
+        Consumer consumes 20809
+        Consumer consumes 17528
+Producer produced 67633
+        Consumer consumes 67633
+Producer produced 41730
+        Consumer consumes 41730
+Producer produced 71241
+        Consumer consumes 71241
+Producer produced 66732
+        Consumer consumes 66732
+Producer produced 13191
+        Consumer consumes 13191
+Producer produced 74241
+        Consumer consumes 74241
+Producer produced 2183
+        Consumer consumes 2183
+Producer produced 47972
+        Consumer consumes 47972
+Producer produced 9834
+Producer produced 49293
+        Consumer consumes 9834
+Producer produced 9504
+        Consumer consumes 49293
+        Consumer consumes 9504
+Producer produced 68714
+Producer produced 50203
+        Consumer consumes 68714
+        Consumer consumes 50203
+Producer produced 69350
+Producer produced 50624
+        Consumer consumes 69350
+        Consumer consumes 50624
+Producer produced 35599
+Producer produced 18273
+Producer produced 11000
+Producer produced 96476
+        Consumer consumes 35599
+        Consumer consumes 18273
+Producer produced 80509
+        Consumer consumes 11000
+        Consumer consumes 96476
+Producer produced 27894
+        Consumer consumes 80509
+Producer produced 7553
+        Consumer consumes 27894
+Producer produced 6256
+Producer produced 2568
+        Consumer consumes 7553
+        Consumer consumes 6256
+Producer produced 66193
+        Consumer consumes 2568
+        Consumer consumes 66193
+Producer produced 64521
+        Consumer consumes 64521
+Producer produced 22704
+        Consumer consumes 22704
+Producer produced 98530
+        Consumer consumes 98530
+Producer produced 87760
+        Consumer consumes 87760
+Producer produced 92368
+        Consumer consumes 92368
+Producer produced 81965
+        Consumer consumes 81965
+Producer produced 47918
+        Consumer consumes 47918
+Producer produced 4386
+        Consumer consumes 4386
+Producer produced 47943
+        Consumer consumes 47943
+Producer produced 94759
+        Consumer consumes 94759
+Producer produced 10605
+        Consumer consumes 10605
+Producer produced 51695
+        Consumer consumes 51695
+Producer produced 98612
+        Consumer consumes 98612
+Producer produced 63689
+        Consumer consumes 63689
+Producer produced 45332
+        Consumer consumes 45332
+Producer produced 68453
+        Consumer consumes 68453
+Producer produced 22040
+        Consumer consumes 22040
+Producer produced 65766
+        Consumer consumes 65766
+Producer produced 12831
+        Consumer consumes 12831
+Producer produced 90189
+Producer produced 93376
+        Consumer consumes 90189
+        Consumer consumes 93376
+Producer produced 46157
+        Consumer consumes 46157
+Producer produced 17182
+        Consumer consumes 17182
+Producer produced 86260
+        Consumer consumes 86260
+Producer produced 47913
+        Consumer consumes 47913
+Producer produced 76427
+        Consumer consumes 76427
+Producer produced 84877
+        Consumer consumes 84877
+Producer produced 85050
+        Consumer consumes 85050
+Producer produced 38944
+        Consumer consumes 38944
+Producer produced 45790
+        Consumer consumes 45790
+Producer produced 31042
+        Consumer consumes 31042
+Producer produced 50005
+        Consumer consumes 50005
+Producer produced 38566
+        Consumer consumes 38566
+Producer produced 52370
+        Consumer consumes 52370
+Producer produced 43360
+        Consumer consumes 43360
+Producer produced 86720
+        Consumer consumes 86720
+Producer produced 4273
+        Consumer consumes 4273
+Producer produced 82746
+        Consumer consumes 82746
+Producer produced 8328
+        Consumer consumes 8328
+Producer produced 69686
+        Consumer consumes 69686
+Producer produced 11676
+        Consumer consumes 11676
+Producer produced 85740
+Producer produced 9007
+        Consumer consumes 85740
+Producer produced 78237
+        Consumer consumes 9007
+Producer produced 81064
+        Consumer consumes 78237
+        Consumer consumes 81064
+Producer produced 31609
+Producer produced 33930
+        Consumer consumes 31609
+        Consumer consumes 33930
+Producer produced 70703
+        Consumer consumes 70703
+Producer produced 14878
+        Consumer consumes 14878
+Producer produced 54183
+        Consumer consumes 54183
+Producer produced 64006
+        Consumer consumes 64006
+Producer produced 49607
+        Consumer consumes 49607
+Producer produced 69968
+        Consumer consumes 69968
+Producer produced 37005
+        Consumer consumes 37005
+Producer produced 50868
+Producer produced 61669
+        Consumer consumes 50868
+        Consumer consumes 61669
+Producer produced 26589
+        Consumer consumes 26589
+Producer produced 65227
+        Consumer consumes 65227
+Producer produced 27937
+        Consumer consumes 27937
+Producer produced 47006
+        Consumer consumes 47006
+Producer produced 27635
+Producer produced 19908
+        Consumer consumes 27635
+        Consumer consumes 19908
+Producer produced 84964
+        Consumer consumes 84964
+Producer produced 30851
+        Consumer consumes 30851
+Producer produced 42862
+        Consumer consumes 42862
+Producer produced 249
+        Consumer consumes 249
+Producer produced 27793
+        Consumer consumes 27793
+Producer produced 33611
+        Consumer consumes 33611
+Producer produced 37311
+        Consumer consumes 37311
+Producer produced 54371
+        Consumer consumes 54371
+Producer produced 86346
+        Consumer consumes 86346
+Producer produced 90816
+        Consumer consumes 90816
+Producer produced 2920
+        Consumer consumes 2920
+Producer produced 59532
+        Consumer consumes 59532
+Producer produced 9845
+        Consumer consumes 9845
+Producer produced 86083
+        Consumer consumes 86083
+Producer produced 22819
+        Consumer consumes 22819
+Producer produced 40234
+        Consumer consumes 40234
+Producer produced 73417
+        Consumer consumes 73417
+Producer produced 46717
+        Consumer consumes 46717
+Producer produced 12642
+Producer produced 99161
+Producer produced 5314
+        Consumer consumes 12642
+        Consumer consumes 99161
+Producer produced 72292
+        Consumer consumes 5314
+Producer produced 98962
+Producer produced 30516
+        Consumer consumes 72292
+Producer produced 86100
+Producer produced 89222
+        Consumer consumes 98962
+        Consumer consumes 30516
+Producer produced 94969
+        Consumer consumes 86100
+Producer produced 21200
+Producer produced 92028
+Producer produced 64436
+        Consumer consumes 89222
+Producer produced 22494
+        Consumer consumes 94969
+        Consumer consumes 21200
+        Consumer consumes 92028
+Producer produced 77717
+Producer produced 8209
+        Consumer consumes 64436
+Producer produced 45358
+Producer produced 74247
+        Consumer consumes 22494
+Producer produced 48922
+        Consumer consumes 77717
+        Consumer consumes 8209
+        Consumer consumes 45358
+Producer produced 76186
+        Consumer consumes 74247
+Producer produced 84359
+Producer produced 84541
+        Consumer consumes 48922
+Producer produced 56156
+        Consumer consumes 76186
+Producer produced 41337
+Producer produced 40085
+        Consumer consumes 84359
+Producer produced 29581
+        Consumer consumes 84541
+Producer produced 85754
+        Consumer consumes 56156
+        Consumer consumes 41337
+Producer produced 2789
+Producer produced 43895
+        Consumer consumes 40085
+Producer produced 21672
+        Consumer consumes 29581
+Producer produced 18512
+        Consumer consumes 85754
+Producer produced 50709
+        Consumer consumes 2789
+Producer produced 76579
+        Consumer consumes 43895
+        Consumer consumes 21672
+Producer produced 89833
+Producer produced 30030
+        Consumer consumes 18512
+Producer produced 95384
+        Consumer consumes 50709
+Producer produced 97995
+        Consumer consumes 76579
+        Consumer consumes 89833
+        Consumer consumes 30030
+Producer produced 53430
+Producer produced 97365
+        Consumer consumes 95384
+Producer produced 54434
+        Consumer consumes 97995
+        Consumer consumes 53430
+        Consumer consumes 97365
+Producer produced 19019
+Producer produced 11648
+Producer produced 47374
+Producer produced 62561
+        Consumer consumes 54434
+        Consumer consumes 19019
+        Consumer consumes 11648
+Producer produced 52530
+        Consumer consumes 47374
+Producer produced 86533
+        Consumer consumes 62561
+Producer produced 6918
+        Consumer consumes 52530
+Producer produced 41838
+Producer produced 43531
+Producer produced 5429
+        Consumer consumes 86533
+        Consumer consumes 6918
+Producer produced 47017
+        Consumer consumes 41838
+Producer produced 64350
+Producer produced 40839
+        Consumer consumes 43531
+Producer produced 34289
+        Consumer consumes 5429
+        Consumer consumes 47017
+Producer produced 33818
+Producer produced 87864
+        Consumer consumes 64350
+        Consumer consumes 40839
+Producer produced 12840
+        Consumer consumes 34289
+Producer produced 1839
+        Consumer consumes 33818
+        Consumer consumes 87864
+Producer produced 49996
+        Consumer consumes 12840
+        Consumer consumes 1839
+        Consumer consumes 49996
+Producer produced 81793
+Producer produced 27020
+Producer produced 47738
+Producer produced 59136
+Producer produced 42387
+        Consumer consumes 81793
+Producer produced 20532
+        Consumer consumes 27020
+Producer produced 99927
+        Consumer consumes 47738
+Producer produced 1084
+        Consumer consumes 59136
+Producer produced 41612
+        Consumer consumes 42387
+Producer produced 98481
+        Consumer consumes 20532
+Producer produced 39906
+        Consumer consumes 99927
+Producer produced 8644
+        Consumer consumes 1084
+Producer produced 79843
+        Consumer consumes 41612
+        Consumer consumes 98481
+        Consumer consumes 39906
+        Consumer consumes 8644
+        Consumer consumes 79843
+Producer produced 78698
+Producer produced 20119
+Producer produced 16056
+Producer produced 88085
+Producer produced 93451
+        Consumer consumes 78698
+        Consumer consumes 20119
+Producer produced 60588
+        Consumer consumes 16056
+        Consumer consumes 88085
+Producer produced 35722
+        Consumer consumes 93451
+Producer produced 16637
+Producer produced 39790
+Producer produced 347
+        Consumer consumes 60588
+Producer produced 66298
+        Consumer consumes 35722
+Producer produced 40739
+        Consumer consumes 16637
+Producer produced 767
+        Consumer consumes 39790
+Producer produced 10974
+        Consumer consumes 347
+Producer produced 23312
+        Consumer consumes 66298
+Producer produced 19275
+        Consumer consumes 40739
+Producer produced 67278
+        Consumer consumes 767
+Producer produced 35379
+        Consumer consumes 10974
+Producer produced 18548
+        Consumer consumes 23312
+Producer produced 5454
+        Consumer consumes 19275
+Producer produced 82870
+        Consumer consumes 67278
+Producer produced 95935
+        Consumer consumes 35379
+Producer produced 77741
+        Consumer consumes 18548
+Producer produced 5542
+        Consumer consumes 5454
+Producer produced 19077
+        Consumer consumes 82870
+Producer produced 64815
+        Consumer consumes 95935
+Producer produced 81237
+        Consumer consumes 77741
+Producer produced 94082
+        Consumer consumes 5542
+Producer produced 22088
+        Consumer consumes 19077
+Producer produced 6393
+        Consumer consumes 64815
+Producer produced 83734
+        Consumer consumes 81237
+        Consumer consumes 94082
+Producer produced 18329
+        Consumer consumes 22088
+Producer produced 74517
+Producer produced 5761
+        Consumer consumes 6393
+Producer produced 23972
+        Consumer consumes 83734
+Producer produced 78268
+        Consumer consumes 18329
+        Consumer consumes 74517
+        Consumer consumes 5761
+        Consumer consumes 23972
+Producer produced 70836
+Producer produced 41943
+        Consumer consumes 78268
+        Consumer consumes 70836
+        Consumer consumes 41943
+Producer produced 93909
+Producer produced 59492
+        Consumer consumes 93909
+        Consumer consumes 59492
+Producer produced 55754
+        Consumer consumes 55754
+Producer produced 9374
+        Consumer consumes 9374
+Producer produced 15649
+        Consumer consumes 15649
+Producer produced 59371
+        Consumer consumes 59371
+Producer produced 86083
+        Consumer consumes 86083
+Producer produced 22952
+        Consumer consumes 22952
+Producer produced 9330
+Producer produced 15158
+Producer produced 15035
+        Consumer consumes 9330
+Producer produced 77468
+        Consumer consumes 15158
+Producer produced 59336
+Producer produced 86319
+        Consumer consumes 15035
+Producer produced 48298
+        Consumer consumes 77468
+        Consumer consumes 59336
+        Consumer consumes 86319
+Producer produced 91610
+Producer produced 87692
+Producer produced 18770
+        Consumer consumes 48298
+Producer produced 86538
+Producer produced 29461
+        Consumer consumes 91610
+Producer produced 36911
+        Consumer consumes 87692
+Producer produced 49181
+        Consumer consumes 18770
+Producer produced 51814
+        Consumer consumes 86538
+        Consumer consumes 29461
+        Consumer consumes 36911
+Producer produced 54751
+Producer produced 85758
+        Consumer consumes 49181
+Producer produced 85034
+Producer produced 79552
+        Consumer consumes 51814
+Producer produced 89987
+        Consumer consumes 54751
+Producer produced 1540
+        Consumer consumes 85758
+Producer produced 18105
+        Consumer consumes 85034
+Producer produced 67455
+        Consumer consumes 79552
+Producer produced 36075
+        Consumer consumes 89987
+Producer produced 44028
+        Consumer consumes 1540
+Producer produced 4454
+        Consumer consumes 18105
+Producer produced 9172
+        Consumer consumes 67455
+Producer produced 89953
+        Consumer consumes 36075
+Producer produced 55665
+        Consumer consumes 44028
+Producer produced 24187
+        Consumer consumes 4454
+Producer produced 75303
+Producer produced 45322
+        Consumer consumes 9172
+        Consumer consumes 55665
+Producer produced 62323
+        Consumer consumes 89953
+Producer produced 96629
+        Consumer consumes 24187
+Producer produced 72606
+        Consumer consumes 75303
+Producer produced 51555
+        Consumer consumes 45322
+Producer produced 24752
+        Consumer consumes 62323
+Producer produced 2362
+        Consumer consumes 72606
+Producer produced 33754
+        Consumer consumes 96629
+Producer produced 76686
+        Consumer consumes 51555
+Producer produced 63088
+        Consumer consumes 24752
+Producer produced 49723
+        Consumer consumes 2362
+Producer produced 9110
+        Consumer consumes 33754
+Producer produced 51278
+        Consumer consumes 76686
+Producer produced 37372
+        Consumer consumes 63088
+Producer produced 21091
+        Consumer consumes 49723
+        Consumer consumes 9110
+        Consumer consumes 51278
+        Consumer consumes 37372
+Producer produced 5566
+Producer produced 87288
+Producer produced 27825
+Producer produced 8762
+        Consumer consumes 21091
+        Consumer consumes 5566
+        Consumer consumes 87288
+Producer produced 18113
+Producer produced 39840
+        Consumer consumes 27825
+Producer produced 70957
+Producer produced 32626
+        Consumer consumes 8762
+Producer produced 43970
+        Consumer consumes 18113
+Producer produced 92522
+        Consumer consumes 39840
+Producer produced 86195
+        Consumer consumes 32626
+Producer produced 21416
+        Consumer consumes 70957
+Producer produced 61887
+        Consumer consumes 43970
+Producer produced 61801
+        Consumer consumes 92522
+        Consumer consumes 86195
+        Consumer consumes 21416
+Producer produced 68256
+Producer produced 92310
+Producer produced 79776
+        Consumer consumes 61887
+Producer produced 79043
+        Consumer consumes 61801
+Producer produced 27408
+        Consumer consumes 68256
+Producer produced 32236
+        Consumer consumes 92310
+Producer produced 37702
+Producer produced 36223
+        Consumer consumes 79776
+Producer produced 55481
+        Consumer consumes 79043
+Producer produced 91393
+        Consumer consumes 27408
+        Consumer consumes 32236
+Producer produced 28636
+        Consumer consumes 37702
+        Consumer consumes 36223
+        Consumer consumes 55481
+Producer produced 45185
+Producer produced 33710
+        Consumer consumes 91393
+        Consumer consumes 28636
+Producer produced 76582
+        Consumer consumes 45185
+        Consumer consumes 33710
+Producer produced 99902
+Producer produced 72958
+Producer produced 67761
+        Consumer consumes 76582
+        Consumer consumes 99902
+Producer produced 44982
+        Consumer consumes 72958
+        Consumer consumes 67761
+Producer produced 51236
+        Consumer consumes 44982
+Producer produced 89128
+        Consumer consumes 51236
+Producer produced 8610
+        Consumer consumes 89128
+Producer produced 41291
+Producer produced 22794
+Producer produced 53117
+Producer produced 89235
+        Consumer consumes 8610
+Producer produced 16873
+        Consumer consumes 41291
+Producer produced 64495
+        Consumer consumes 22794
+Producer produced 13881
+        Consumer consumes 53117
+Producer produced 69516
+        Consumer consumes 89235
+Producer produced 94765
+        Consumer consumes 16873
+Producer produced 13953
+        Consumer consumes 64495
+Producer produced 36601
+        Consumer consumes 13881
+Producer produced 10497
+        Consumer consumes 69516
+        Consumer consumes 94765
+Producer produced 41570
+Producer produced 58496
+        Consumer consumes 13953
+        Consumer consumes 36601
+Producer produced 43483
+Producer produced 44268
+        Consumer consumes 10497
+Producer produced 60818
+        Consumer consumes 41570
+        Consumer consumes 58496
+        Consumer consumes 43483
+Producer produced 78770
+Producer produced 86914
+        Consumer consumes 44268
+Producer produced 95084
+        Consumer consumes 78770
+        Consumer consumes 60818
+        Consumer consumes 86914
+Producer produced 88217
+Producer produced 85987
+Producer produced 42902
+        Consumer consumes 95084
+        Consumer consumes 88217
+        Consumer consumes 85987
+Producer produced 17241
+        Consumer consumes 42902
+Producer produced 99606
+Producer produced 43990
+        Consumer consumes 17241
+        Consumer consumes 99606
+Producer produced 60840
+Producer produced 97282
+Producer produced 11611
+        Consumer consumes 43990
+        Consumer consumes 60840
+Producer produced 78412
+        Consumer consumes 97282
+Producer produced 8307
+        Consumer consumes 11611
+Producer produced 95205
+Producer produced 28707
+Producer produced 85871
+        Consumer consumes 78412
+Producer produced 71517
+        Consumer consumes 8307
+Producer produced 90986
+        Consumer consumes 95205
+Producer produced 22051
+        Consumer consumes 28707
+Producer produced 19612
+        Consumer consumes 85871
+Producer produced 28796
+        Consumer consumes 71517
+Producer produced 93469
+        Consumer consumes 90986
+Producer produced 23417
+        Consumer consumes 22051
+Producer produced 87596
+        Consumer consumes 19612
+Producer produced 47670
+        Consumer consumes 28796
+Producer produced 39847
+Producer produced 52135
+        Consumer consumes 93469
+        Consumer consumes 23417
+Producer produced 27745
+        Consumer consumes 87596
+Producer produced 42237
+        Consumer consumes 47670
+Producer produced 63169
+        Consumer consumes 39847
+Producer produced 15272
+        Consumer consumes 52135
+Producer produced 71233
+        Consumer consumes 27745
+Producer produced 38282
+        Consumer consumes 42237
+Producer produced 14419
+        Consumer consumes 63169
+Producer produced 42390
+        Consumer consumes 15272
+Producer produced 97571
+        Consumer consumes 71233
+Producer produced 3889
+        Consumer consumes 38282
+Producer produced 52613
+        Consumer consumes 14419
+Producer produced 22959
+        Consumer consumes 42390
+Producer produced 84113
+        Consumer consumes 3889
+Producer produced 61328
+        Consumer consumes 97571
+Producer produced 58851
+        Consumer consumes 52613
+Producer produced 33621
+        Consumer consumes 22959
+Producer produced 37738
+        Consumer consumes 84113
+Producer produced 42716
+        Consumer consumes 61328
+Producer produced 47887
+        Consumer consumes 58851
+Producer produced 35621
+        Consumer consumes 33621
+Producer produced 66982
+Producer produced 12540
+        Consumer consumes 37738
+        Consumer consumes 42716
+Producer produced 83781
+        Consumer consumes 47887
+Producer produced 18054
+        Consumer consumes 35621
+Producer produced 68580
+        Consumer consumes 66982
+Producer produced 9144
+        Consumer consumes 12540
+Producer produced 44826
+        Consumer consumes 83781
+Producer produced 52592
+        Consumer consumes 18054
+        Consumer consumes 68580
+Producer produced 62996
+Producer produced 88707
+        Consumer consumes 9144
+        Consumer consumes 44826
+Producer produced 56327
+Producer produced 58904
+        Consumer consumes 52592
+Producer produced 47178
+        Consumer consumes 62996
+Producer produced 71608
+        Consumer consumes 88707
+Producer produced 1108
+        Consumer consumes 56327
+        Consumer consumes 58904
+Producer produced 77320
+Producer produced 79451
+        Consumer consumes 47178
+Producer produced 95083
+        Consumer consumes 71608
+Producer produced 62761
+        Consumer consumes 1108
+Producer produced 27772
+        Consumer consumes 77320
+Producer produced 99248
+        Consumer consumes 79451
+Producer produced 80022
+        Consumer consumes 95083
+Producer produced 86983
+        Consumer consumes 62761
+Producer produced 63093
+        Consumer consumes 27772
+Producer produced 27204
+        Consumer consumes 99248
+Producer produced 55548
+        Consumer consumes 80022
+Producer produced 80135
+        Consumer consumes 86983
+Producer produced 4211
+        Consumer consumes 63093
+Producer produced 61482
+        Consumer consumes 27204
+Producer produced 21001
+        Consumer consumes 55548
+Producer produced 61331
+        Consumer consumes 80135
+Producer produced 82358
+        Consumer consumes 4211
+Producer produced 44193
+        Consumer consumes 61482
+Producer produced 46168
+        Consumer consumes 21001
+Producer produced 63355
+        Consumer consumes 61331
+Producer produced 15311
+        Consumer consumes 82358
+        Consumer consumes 44193
+        Consumer consumes 46168
+        Consumer consumes 63355
+        Consumer consumes 15311
+Producer produced 93699
+        Consumer consumes 93699
+Producer produced 83919
+        Consumer consumes 83919
+Producer produced 46550
+        Consumer consumes 46550
+Producer produced 92375
+        Consumer consumes 92375
+Producer produced 14606
+        Consumer consumes 14606
+Producer produced 83333
+        Consumer consumes 83333
+Producer produced 36182
+        Consumer consumes 36182
+Producer produced 41227
+        Consumer consumes 41227
+Producer produced 14203
+        Consumer consumes 14203
+Producer produced 7780
+        Consumer consumes 7780
+Producer produced 39077
+        Consumer consumes 39077
+Producer produced 4377
+        Consumer consumes 4377
+Producer produced 63764
+        Consumer consumes 63764
+Producer produced 44362
+        Consumer consumes 44362
+Producer produced 7617
+        Consumer consumes 7617
+Producer produced 85966
+Producer produced 81182
+        Consumer consumes 85966
+Producer produced 74665
+        Consumer consumes 81182
+        Consumer consumes 74665
+Producer produced 60050
+        Consumer consumes 60050
+Producer produced 90925
+        Consumer consumes 90925
+Producer produced 95330
+        Consumer consumes 95330
+Producer produced 84877
+        Consumer consumes 84877
+Producer produced 93348
+Producer produced 94652
+Producer produced 22586
+        Consumer consumes 93348
+        Consumer consumes 22586
+        Consumer consumes 94652
+Producer produced 24894
+        Consumer consumes 24894
+Producer produced 31398
+Producer produced 35033
+        Consumer consumes 31398
+        Consumer consumes 35033
+Producer produced 6900
+        Consumer consumes 6900
+Producer produced 56443
+        Consumer consumes 56443
+Producer produced 34269
+        Consumer consumes 34269
+Producer produced 8489
+Producer produced 74790
+Producer produced 26247
+Producer produced 91301
+        Consumer consumes 8489
+        Consumer consumes 74790
+        Consumer consumes 26247
+        Consumer consumes 91301
+Producer produced 71793
+        Consumer consumes 71793
+Producer produced 84814
+        Consumer consumes 84814
+Producer produced 18432
+        Consumer consumes 18432
+Producer produced 60486
+        Consumer consumes 60486
+Producer produced 7326
+Producer produced 72292
+        Consumer consumes 7326
+Producer produced 47593
+        Consumer consumes 72292
+        Consumer consumes 47593
+Producer produced 99695
+        Consumer consumes 99695
+Producer produced 7006
+        Consumer consumes 7006
+Producer produced 24224
+        Consumer consumes 24224
+Producer produced 69738
+        Consumer consumes 69738
+Producer produced 22801
+Producer produced 91921
+        Consumer consumes 22801
+Producer produced 62945
+        Consumer consumes 91921
+        Consumer consumes 62945
+Producer produced 87662
+        Consumer consumes 87662
+Producer produced 64026
+        Consumer consumes 64026
+Producer produced 2458
+Producer produced 93697
+        Consumer consumes 2458
+Producer produced 36362
+        Consumer consumes 93697
+Producer produced 49261
+        Consumer consumes 36362
+        Consumer consumes 49261
+Producer produced 80752
+        Consumer consumes 80752
+Producer produced 60370
+        Consumer consumes 60370
+Producer produced 23741
+        Consumer consumes 23741
+Producer produced 38363
+        Consumer consumes 38363
+Producer produced 92242
+        Consumer consumes 92242
+Producer produced 90228
+        Consumer consumes 90228
+Producer produced 26962
+        Consumer consumes 26962
+Producer produced 99424
+        Consumer consumes 99424
+Producer produced 19575
+        Consumer consumes 19575
+Producer produced 7607
+Producer produced 26402
+Producer produced 99484
+        Consumer consumes 7607
+        Consumer consumes 26402
+Producer produced 24962
+        Consumer consumes 99484
+Producer produced 60040
+        Consumer consumes 24962
+Producer produced 20855
+Producer produced 55372
+Producer produced 85236
+Producer produced 91098
+        Consumer consumes 60040
+        Consumer consumes 20855
+        Consumer consumes 55372
+        Consumer consumes 85236
+Producer produced 25995
+Producer produced 44068
+Producer produced 68188
+Producer produced 8146
+        Consumer consumes 91098
+Producer produced 77232
+        Consumer consumes 25995
+Producer produced 48172
+        Consumer consumes 44068
+Producer produced 97545
+        Consumer consumes 68188
+Producer produced 6158
+        Consumer consumes 8146
+Producer produced 48073
+        Consumer consumes 77232
+Producer produced 97172
+        Consumer consumes 48172
+Producer produced 55905
+        Consumer consumes 97545
+Producer produced 41298
+        Consumer consumes 6158
+Producer produced 19124
+        Consumer consumes 48073
+Producer produced 93873
+        Consumer consumes 55905
+        Consumer consumes 97172
+Producer produced 6197
+Producer produced 38890
+        Consumer consumes 41298
+Producer produced 46699
+        Consumer consumes 19124
+Producer produced 35590
+        Consumer consumes 93873
+Producer produced 73701
+        Consumer consumes 6197
+Producer produced 18549
+        Consumer consumes 38890
+Producer produced 64096
+        Consumer consumes 46699
+Producer produced 55031
+        Consumer consumes 35590
+Producer produced 26330
+        Consumer consumes 73701
+Producer produced 75084
+        Consumer consumes 18549
+Producer produced 34182
+        Consumer consumes 64096
+        Consumer consumes 55031
+        Consumer consumes 26330
+        Consumer consumes 75084
+Producer produced 270
+        Consumer consumes 34182
+        Consumer consumes 270
+Producer produced 16526
+        Consumer consumes 16526
+Producer produced 82287
+Producer produced 14286
+Producer produced 45436
+Producer produced 15314
+        Consumer consumes 82287
+Producer produced 94095
+Producer produced 65775
+        Consumer consumes 14286
+        Consumer consumes 45436
+Producer produced 41274
+        Consumer consumes 15314
+Producer produced 40278
+Producer produced 77566
+        Consumer consumes 94095
+Producer produced 29151
+        Consumer consumes 65775
+        Consumer consumes 41274
+Producer produced 39845
+        Consumer consumes 40278
+Producer produced 56794
+        Consumer consumes 77566
+        Consumer consumes 29151
+        Consumer consumes 39845
+        Consumer consumes 56794
+Producer produced 92024
+Producer produced 56350
+        Consumer consumes 92024
+Producer produced 43924
+Producer produced 2660
+Producer produced 36876
+Producer produced 658
+        Consumer consumes 56350
+Producer produced 74194
+        Consumer consumes 43924
+Producer produced 38285
+        Consumer consumes 2660
+Producer produced 1835
+        Consumer consumes 36876
+Producer produced 5484
+        Consumer consumes 658
+Producer produced 76668
+        Consumer consumes 74194
+Producer produced 89142
+        Consumer consumes 38285
+Producer produced 41451
+        Consumer consumes 1835
+Producer produced 28521
+        Consumer consumes 5484
+Producer produced 19896
+        Consumer consumes 76668
+Producer produced 70201
+        Consumer consumes 89142
+Producer produced 48952
+        Consumer consumes 41451
+Producer produced 54581
+        Consumer consumes 28521
+Producer produced 51632
+        Consumer consumes 19896
+        Consumer consumes 70201
+Producer produced 80922
+Producer produced 28536
+        Consumer consumes 48952
+Producer produced 57834
+        Consumer consumes 54581
+Producer produced 13098
+        Consumer consumes 51632
+Producer produced 40508
+        Consumer consumes 80922
+Producer produced 26329
+        Consumer consumes 28536
+Producer produced 56759
+        Consumer consumes 57834
+Producer produced 76869
+        Consumer consumes 13098
+Producer produced 74512
+        Consumer consumes 40508
+Producer produced 78426
+        Consumer consumes 26329
+Producer produced 33532
+        Consumer consumes 56759
+Producer produced 7410
+        Consumer consumes 76869
+Producer produced 96072
+        Consumer consumes 74512
+Producer produced 38291
+        Consumer consumes 78426
+Producer produced 46961
+        Consumer consumes 33532
+Producer produced 34124
+        Consumer consumes 7410
+        Consumer consumes 96072
+        Consumer consumes 38291
+Producer produced 37609
+Producer produced 1985
+        Consumer consumes 46961
+Producer produced 66821
+Producer produced 70614
+        Consumer consumes 34124
+Producer produced 70239
+        Consumer consumes 37609
+        Consumer consumes 1985
+Producer produced 41170
+        Consumer consumes 66821
+Producer produced 83716
+        Consumer consumes 70614
+        Consumer consumes 70239
+        Consumer consumes 41170
+        Consumer consumes 83716
+Producer produced 27856
+        Consumer consumes 27856
+Producer produced 76458
+        Consumer consumes 76458
+Producer produced 93289
+        Consumer consumes 93289
+Producer produced 52786
+        Consumer consumes 52786
+Producer produced 6581
+        Consumer consumes 6581
+Producer produced 22358
+Producer produced 41391
+Producer produced 47413
+Producer produced 16052
+Producer produced 17289
+        Consumer consumes 22358
+        Consumer consumes 41391
+        Consumer consumes 47413
+Producer produced 94774
+Producer produced 91823
+        Consumer consumes 16052
+        Consumer consumes 17289
+Producer produced 42217
+        Consumer consumes 94774
+        Consumer consumes 91823
+Producer produced 62774
+Producer produced 15435
+        Consumer consumes 42217
+Producer produced 96424
+        Consumer consumes 62774
+Producer produced 68568
+Producer produced 5134
+        Consumer consumes 15435
+Producer produced 65880
+        Consumer consumes 96424
+Producer produced 41642
+Producer produced 57957
+        Consumer consumes 68568
+Producer produced 47862
+        Consumer consumes 5134
+        Consumer consumes 65880
+        Consumer consumes 41642
+        Consumer consumes 57957
+Producer produced 60979
+Producer produced 15174
+        Consumer consumes 47862
+        Consumer consumes 60979
+        Consumer consumes 15174
+Producer produced 74130
+Producer produced 41395
+Producer produced 59366
+        Consumer consumes 74130
+Producer produced 23476
+        Consumer consumes 41395
+Producer produced 10806
+Producer produced 89858
+Producer produced 81243
+        Consumer consumes 59366
+Producer produced 95063
+        Consumer consumes 23476
+        Consumer consumes 10806
+        Consumer consumes 89858
+        Consumer consumes 81243
+Producer produced 35351
+Producer produced 20100
+        Consumer consumes 95063
+Producer produced 47076
+        Consumer consumes 35351
+Producer produced 72447
+        Consumer consumes 20100
+Producer produced 33828
+        Consumer consumes 47076
+Producer produced 24151
+        Consumer consumes 72447
+        Consumer consumes 33828
+        Consumer consumes 24151
+Producer produced 74245
+Producer produced 78344
+Producer produced 93489
+Producer produced 65504
+        Consumer consumes 74245
+        Consumer consumes 78344
+        Consumer consumes 93489
+Producer produced 31519
+Producer produced 85440
+Producer produced 2255
+        Consumer consumes 65504
+Producer produced 5571
+        Consumer consumes 31519
+        Consumer consumes 85440
+Producer produced 72793
+        Consumer consumes 2255
+Producer produced 97254
+        Consumer consumes 5571
+        Consumer consumes 72793
+        Consumer consumes 97254
+Producer produced 74951
+Producer produced 33749
+Producer produced 82284
+Producer produced 80910
+        Consumer consumes 74951
+        Consumer consumes 33749
+Producer produced 41587
+Producer produced 64265
+Producer produced 44716
+        Consumer consumes 82284
+        Consumer consumes 80910
+Producer produced 58625
+        Consumer consumes 41587
+Producer produced 28090
+        Consumer consumes 64265
+Producer produced 74727
+        Consumer consumes 44716
+Producer produced 73967
+Producer produced 91009
+        Consumer consumes 58625
+Producer produced 42918
+        Consumer consumes 28090
+Producer produced 34779
+        Consumer consumes 74727
+Producer produced 69307
+        Consumer consumes 73967
+Producer produced 93513
+        Consumer consumes 91009
+Producer produced 30692
+        Consumer consumes 42918
+Producer produced 87785
+        Consumer consumes 34779
+Producer produced 24656
+        Consumer consumes 69307
+Producer produced 47187
+        Consumer consumes 93513
+Producer produced 31479
+        Consumer consumes 30692
+Producer produced 21758
+        Consumer consumes 87785
+Producer produced 40334
+        Consumer consumes 24656
+Producer produced 26708
+        Consumer consumes 47187
+Producer produced 8121
+        Consumer consumes 31479
+Producer produced 70561
+        Consumer consumes 21758
+Producer produced 80196
+        Consumer consumes 40334
+Producer produced 26178
+        Consumer consumes 26708
+        Consumer consumes 8121
+Producer produced 94671
+Producer produced 24265
+        Consumer consumes 70561
+Producer produced 67831
+        Consumer consumes 80196
+Producer produced 86325
+        Consumer consumes 26178
+Producer produced 11335
+        Consumer consumes 94671
+Producer produced 23016
+        Consumer consumes 24265
+Producer produced 24012
+        Consumer consumes 67831
+Producer produced 17931
+        Consumer consumes 86325
+Producer produced 56561
+        Consumer consumes 11335
+        Consumer consumes 23016
+        Consumer consumes 24012
+Producer produced 93765
+        Consumer consumes 17931
+Producer produced 74194
+Producer produced 84934
+        Consumer consumes 56561
+        Consumer consumes 93765
+Producer produced 20151
+        Consumer consumes 74194
+        Consumer consumes 84934
+        Consumer consumes 20151
+Producer produced 66535
+        Consumer consumes 66535
+Producer produced 92783
+        Consumer consumes 92783
+Producer produced 73200
+Producer produced 5178
+Producer produced 97293
+        Consumer consumes 73200
+        Consumer consumes 5178
+        Consumer consumes 97293
+Producer produced 72709
+Producer produced 14079
+Producer produced 89099
+        Consumer consumes 72709
+Producer produced 31099
+        Consumer consumes 14079
+Producer produced 1216
+        Consumer consumes 89099
+        Consumer consumes 31099
+        Consumer consumes 1216
+Producer produced 46451
+        Consumer consumes 46451
+Producer produced 6787
+        Consumer consumes 6787
+Producer produced 40655
+Producer produced 35167
+        Consumer consumes 40655
+        Consumer consumes 35167
+Producer produced 73659
+        Consumer consumes 73659
+Producer produced 70592
+        Consumer consumes 70592
+Producer produced 62674
+        Consumer consumes 62674
+Producer produced 81148
+        Consumer consumes 81148
+Producer produced 56408
+        Consumer consumes 56408
+Producer produced 78236
+        Consumer consumes 78236
+Producer produced 24490
+        Consumer consumes 24490
+Producer produced 95290
+        Consumer consumes 95290
+Producer produced 57178
+        Consumer consumes 57178
+Producer produced 22187
+        Consumer consumes 22187
+Producer produced 88683
+        Consumer consumes 88683
+Producer produced 46474
+        Consumer consumes 46474
+Producer produced 2182
+        Consumer consumes 2182
+Producer produced 4977
+Producer produced 70606
+        Consumer consumes 4977
+Producer produced 6938
+        Consumer consumes 70606
+        Consumer consumes 6938
+Producer produced 21529
+        Consumer consumes 21529
+Producer produced 84957
+        Consumer consumes 84957
+Producer produced 35930
+        Consumer consumes 35930
+Producer produced 67482
+        Consumer consumes 67482
+Producer produced 17094
+        Consumer consumes 17094
+Producer produced 7206
+Producer produced 57118
+        Consumer consumes 7206
+        Consumer consumes 57118
+Producer produced 99437
+        Consumer consumes 99437
+Producer produced 3995
+        Consumer consumes 3995
+Producer produced 58657
+        Consumer consumes 58657
+Producer produced 88064
+        Consumer consumes 88064
+Producer produced 66089
+        Consumer consumes 66089
+Producer produced 76002
+        Consumer consumes 76002
+Producer produced 15804
+        Consumer consumes 15804
+Producer produced 88880
+        Consumer consumes 88880
+Producer produced 78858
+        Consumer consumes 78858
+Producer produced 1827
+        Consumer consumes 1827
+Producer produced 94042
+        Consumer consumes 94042
+Producer produced 58422
+        Consumer consumes 58422
+Producer produced 98841
+        Consumer consumes 98841
+Producer produced 6471
+        Consumer consumes 6471
+Producer produced 20108
+        Consumer consumes 20108
+Producer produced 79371
+Producer produced 31988
+        Consumer consumes 79371
+        Consumer consumes 31988
+Producer produced 97559
+        Consumer consumes 97559
+Producer produced 33672
+        Consumer consumes 33672
+Producer produced 66371
+        Consumer consumes 66371
+Producer produced 56091
+        Consumer consumes 56091
+Producer produced 58051
+Producer produced 24456
+        Consumer consumes 58051
+Producer produced 1991
+        Consumer consumes 24456
+        Consumer consumes 1991
+Producer produced 74486
+        Consumer consumes 74486
+Producer produced 67614
+        Consumer consumes 67614
+Producer produced 73665
+        Consumer consumes 73665
+Producer produced 75297
+        Consumer consumes 75297
+Producer produced 55718
+        Consumer consumes 55718
+Producer produced 38
+        Consumer consumes 38
+Producer produced 17438
+Producer produced 272
+        Consumer consumes 17438
+        Consumer consumes 272
+Producer produced 15559
+        Consumer consumes 15559
+Producer produced 82466
+        Consumer consumes 82466
+Producer produced 26073
+        Consumer consumes 26073
+Producer produced 49596
+        Consumer consumes 49596
+Producer produced 28830
+        Consumer consumes 28830
+Producer produced 50757
+        Consumer consumes 50757
+Producer produced 32630
+        Consumer consumes 32630
+Producer produced 32803
+        Consumer consumes 32803
+Producer produced 92101
+Producer produced 38831
+        Consumer consumes 92101
+Producer produced 1980
+Producer produced 59378
+        Consumer consumes 38831
+Producer produced 51408
+        Consumer consumes 1980
+        Consumer consumes 59378
+        Consumer consumes 51408
+Producer produced 56658
+        Consumer consumes 56658
+Producer produced 11345
+        Consumer consumes 11345
+Producer produced 50927
+        Consumer consumes 50927
+Producer produced 19259
+        Consumer consumes 19259
+Producer produced 16625
+        Consumer consumes 16625
+Producer produced 89777
+        Consumer consumes 89777
+Producer produced 11283
+        Consumer consumes 11283
+Producer produced 40466
+Producer produced 75813
+        Consumer consumes 40466
+        Consumer consumes 75813
+Producer produced 86698
+        Consumer consumes 86698
+Producer produced 98709
+        Consumer consumes 98709
+Producer produced 57596
+Producer produced 3065
+Producer produced 75542
+Producer produced 34497
+Producer produced 58053
+        Consumer consumes 57596
+Producer produced 5845
+        Consumer consumes 3065
+Producer produced 76470
+        Consumer consumes 75542
+        Consumer consumes 34497
+Producer produced 14952
+        Consumer consumes 58053
+Producer produced 6407
+        Consumer consumes 5845
+        Consumer consumes 76470
+        Consumer consumes 14952
+        Consumer consumes 6407
+Producer produced 72665
+Producer produced 38824
+Producer produced 95217
+        Consumer consumes 72665
+Producer produced 28756
+Producer produced 73951
+Producer produced 89157
+        Consumer consumes 38824
+Producer produced 16173
+        Consumer consumes 95217
+Producer produced 62339
+        Consumer consumes 28756
+Producer produced 46882
+        Consumer consumes 73951
+        Consumer consumes 89157
+        Consumer consumes 62339
+        Consumer consumes 16173
+Producer produced 71706
+Producer produced 8264
+        Consumer consumes 46882
+        Consumer consumes 71706
+Producer produced 39156
+Producer produced 10174
+Producer produced 89952
+        Consumer consumes 8264
+Producer produced 14108
+Producer produced 83938
+        Consumer consumes 39156
+Producer produced 51789
+        Consumer consumes 10174
+Producer produced 88698
+        Consumer consumes 89952
+Producer produced 89023
+        Consumer consumes 14108
+Producer produced 3748
+        Consumer consumes 83938
+Producer produced 49040
+        Consumer consumes 51789
+Producer produced 39471
+        Consumer consumes 88698
+Producer produced 39339
+        Consumer consumes 89023
+Producer produced 72764
+        Consumer consumes 3748
+Producer produced 89855
+        Consumer consumes 49040
+Producer produced 76849
+        Consumer consumes 39471
+Producer produced 15263
+        Consumer consumes 39339
+        Consumer consumes 72764
+        Consumer consumes 89855
+Producer produced 15340
+Producer produced 28119
+Producer produced 14626
+        Consumer consumes 76849
+Producer produced 8106
+        Consumer consumes 15263
+Producer produced 14529
+        Consumer consumes 15340
+Producer produced 47810
+        Consumer consumes 28119
+Producer produced 78337
+        Consumer consumes 14626
+Producer produced 74437
+        Consumer consumes 8106
+Producer produced 42591
+        Consumer consumes 14529
+Producer produced 82709
+        Consumer consumes 47810
+Producer produced 10781
+        Consumer consumes 78337
+Producer produced 22738
+        Consumer consumes 74437
+        Consumer consumes 42591
+Producer produced 31288
+Producer produced 39906
+        Consumer consumes 82709
+Producer produced 38814
+        Consumer consumes 10781
+Producer produced 55110
+        Consumer consumes 22738
+Producer produced 30234
+        Consumer consumes 31288
+Producer produced 98766
+        Consumer consumes 39906
+Producer produced 12013
+        Consumer consumes 38814
+        Consumer consumes 55110
+Producer produced 50420
+        Consumer consumes 30234
+Producer produced 19613
+        Consumer consumes 98766
+Producer produced 38541
+        Consumer consumes 12013
+        Consumer consumes 50420
+Producer produced 68216
+        Consumer consumes 19613
+Producer produced 66636
+Producer produced 38308
+        Consumer consumes 38541
+        Consumer consumes 68216
+        Consumer consumes 66636
+        Consumer consumes 38308
+Producer produced 78249
+        Consumer consumes 78249
+Producer produced 65630
+Producer produced 43840
+Producer produced 86259
+        Consumer consumes 65630
+        Consumer consumes 43840
+        Consumer consumes 86259
+Producer produced 26210
+        Consumer consumes 26210
+Producer produced 4485
+        Consumer consumes 4485
+Producer produced 15742
+        Consumer consumes 15742
+Producer produced 41710
+        Consumer consumes 41710
+Producer produced 80943
+        Consumer consumes 80943
+Producer produced 13685
+        Consumer consumes 13685
+Producer produced 82650
+        Consumer consumes 82650
+Producer produced 77994
+        Consumer consumes 77994
+Producer produced 82210
+        Consumer consumes 82210
+Producer produced 89560
+        Consumer consumes 89560
+Producer produced 24667
+        Consumer consumes 24667
+Producer produced 79219
+        Consumer consumes 79219
+Producer produced 65354
+        Consumer consumes 65354
+Producer produced 93681
+        Consumer consumes 93681
+Producer produced 12950
+Producer produced 72664
+        Consumer consumes 12950
+        Consumer consumes 72664
+Producer produced 44850
+        Consumer consumes 44850
+Producer produced 67735
+        Consumer consumes 67735
+Producer produced 3288
+        Consumer consumes 3288
+Producer produced 10678
+        Consumer consumes 10678
+Producer produced 30151
+        Consumer consumes 30151
+Producer produced 81292
+        Consumer consumes 81292
+Producer produced 58652
+        Consumer consumes 58652
+Producer produced 57376
+        Consumer consumes 57376
+Producer produced 10870
+        Consumer consumes 10870
+Producer produced 7678
+        Consumer consumes 7678
+Producer produced 92860
+        Consumer consumes 92860
+Producer produced 68904
+        Consumer consumes 68904
+Producer produced 37332
+        Consumer consumes 37332
+Producer produced 34585
+        Consumer consumes 34585
+Producer produced 31013
+        Consumer consumes 31013
+Producer produced 16557
+        Consumer consumes 16557
+Producer produced 16919
+        Consumer consumes 16919
+Producer produced 70438
+        Consumer consumes 70438
+Producer produced 5379
+        Consumer consumes 5379
+Producer produced 3552
+        Consumer consumes 3552
+Producer produced 18498
+        Consumer consumes 18498
+Producer produced 70949
+        Consumer consumes 70949
+Producer produced 15259
+        Consumer consumes 15259
+Producer produced 7092
+        Consumer consumes 7092
+Producer produced 16382
+        Consumer consumes 16382
+Producer produced 45218
+        Consumer consumes 45218
+Producer produced 85752
+        Consumer consumes 85752
+Producer produced 36067
+        Consumer consumes 36067
+Producer produced 75939
+        Consumer consumes 75939
+Producer produced 57943
+        Consumer consumes 57943
+Producer produced 2364
+        Consumer consumes 2364
+Producer produced 22071
+        Consumer consumes 22071
+Producer produced 43350
+        Consumer consumes 43350
+Producer produced 38846
+        Consumer consumes 38846
+Producer produced 10040
+        Consumer consumes 10040
+Producer produced 40668
+        Consumer consumes 40668
+Producer produced 2700
+        Consumer consumes 2700
+Producer produced 92337
+        Consumer consumes 92337
+Producer produced 6264
+        Consumer consumes 6264
+Producer produced 27647
+Producer produced 17485
+        Consumer consumes 27647
+        Consumer consumes 17485
+Producer produced 82752
+        Consumer consumes 82752
+Producer produced 47797
+        Consumer consumes 47797
+Producer produced 84098
+        Consumer consumes 84098
+Producer produced 57172
+        Consumer consumes 57172
+Producer produced 21774
+Producer produced 84110
+        Consumer consumes 21774
+        Consumer consumes 84110
+Producer produced 34367
+        Consumer consumes 34367
+Producer produced 21810
+        Consumer consumes 21810
+Producer produced 2889
+Producer produced 46161
+Producer produced 79382
+Producer produced 94739
+        Consumer consumes 2889
+Producer produced 58404
+Producer produced 14930
+        Consumer consumes 46161
+        Consumer consumes 79382
+Producer produced 12341
+Producer produced 76184
+        Consumer consumes 94739
+Producer produced 16446
+        Consumer consumes 58404
+Producer produced 33747
+        Consumer consumes 14930
+Producer produced 28131
+        Consumer consumes 12341
+Producer produced 73347
+        Consumer consumes 76184
+Producer produced 25890
+        Consumer consumes 16446
+Producer produced 52490
+        Consumer consumes 33747
+Producer produced 84522
+        Consumer consumes 28131
+Producer produced 60593
+        Consumer consumes 73347
+Producer produced 4754
+        Consumer consumes 25890
+Producer produced 84036
+        Consumer consumes 52490
+Producer produced 9759
+        Consumer consumes 84522
+Producer produced 76386
+        Consumer consumes 60593
+Producer produced 66640
+        Consumer consumes 4754
+Producer produced 77739
+        Consumer consumes 84036
+Producer produced 46094
+        Consumer consumes 9759
+Producer produced 95668
+        Consumer consumes 76386
+Producer produced 29235
+        Consumer consumes 66640
+Producer produced 30843
+        Consumer consumes 77739
+Producer produced 5574
+        Consumer consumes 46094
+Producer produced 70157
+        Consumer consumes 95668
+Producer produced 53299
+        Consumer consumes 29235
+Producer produced 83968
+        Consumer consumes 30843
+Producer produced 73087
+        Consumer consumes 5574
+Producer produced 24152
+        Consumer consumes 70157
+Producer produced 61761
+        Consumer consumes 53299
+Producer produced 46092
+        Consumer consumes 83968
+        Consumer consumes 73087
+Producer produced 87716
+Producer produced 52134
+        Consumer consumes 24152
+Producer produced 18823
+        Consumer consumes 61761
+        Consumer consumes 46092
+Producer produced 49411
+        Consumer consumes 87716
+Producer produced 89120
+Producer produced 73334
+        Consumer consumes 52134
+        Consumer consumes 18823
+Producer produced 65565
+Producer produced 74803
+        Consumer consumes 49411
+Producer produced 80521
+        Consumer consumes 89120
+Producer produced 41263
+        Consumer consumes 73334
+Producer produced 10853
+        Consumer consumes 65565
+Producer produced 97666
+        Consumer consumes 74803
+Producer produced 24932
+        Consumer consumes 80521
+Producer produced 68682
+        Consumer consumes 41263
+Producer produced 18308
+        Consumer consumes 10853
+Producer produced 61311
+        Consumer consumes 97666
+Producer produced 98323
+        Consumer consumes 24932
+        Consumer consumes 68682
+Producer produced 63820
+Producer produced 33117
+        Consumer consumes 18308
+Producer produced 30906
+        Consumer consumes 61311
+Producer produced 92514
+        Consumer consumes 98323
+Producer produced 33905
+        Consumer consumes 63820
+Producer produced 83531
+        Consumer consumes 33117
+Producer produced 83440
+        Consumer consumes 30906
+Producer produced 44714
+        Consumer consumes 92514
+Producer produced 41061
+        Consumer consumes 33905
+Producer produced 51226
+        Consumer consumes 83531
+Producer produced 18815
+        Consumer consumes 83440
+Producer produced 59199
+        Consumer consumes 44714
+Producer produced 80715
+        Consumer consumes 41061
+        Consumer consumes 51226
+Producer produced 22691
+Producer produced 59032
+        Consumer consumes 18815
+Producer produced 59357
+        Consumer consumes 59199
+Producer produced 63040
+        Consumer consumes 80715
+        Consumer consumes 22691
+        Consumer consumes 59032
+        Consumer consumes 59357
+        Consumer consumes 63040
+Producer produced 38723
+        Consumer consumes 38723
+Producer produced 48626
+        Consumer consumes 48626
+Producer produced 68074
+Producer produced 94522
+Producer produced 84790
+        Consumer consumes 68074
+        Consumer consumes 94522
+Producer produced 84154
+        Consumer consumes 84790
+Producer produced 55271
+Producer produced 63531
+        Consumer consumes 84154
+        Consumer consumes 55271
+        Consumer consumes 63531
+Producer produced 63861
+Producer produced 4520
+Producer produced 85304
+Producer produced 17057
+Producer produced 19882
+        Consumer consumes 63861
+Producer produced 68014
+        Consumer consumes 4520
+        Consumer consumes 85304
+        Consumer consumes 17057
+        Consumer consumes 19882
+        Consumer consumes 68014
+Producer produced 70670
+        Consumer consumes 70670
+Producer produced 10255
+        Consumer consumes 10255
+Producer produced 89067
+        Consumer consumes 89067
+Producer produced 1162
+Producer produced 26382
+Producer produced 90246
+        Consumer consumes 1162
+Producer produced 63003
+Producer produced 68346
+        Consumer consumes 26382
+Producer produced 66240
+        Consumer consumes 90246
+        Consumer consumes 63003
+        Consumer consumes 68346
+Producer produced 40573
+Producer produced 56920
+Producer produced 60367
+        Consumer consumes 66240
+Producer produced 43317
+        Consumer consumes 40573
+Producer produced 849
+Producer produced 63682
+        Consumer consumes 56920
+Producer produced 98521
+        Consumer consumes 60367
+Producer produced 61333
+        Consumer consumes 43317
+        Consumer consumes 849
+Producer produced 85669
+Producer produced 7306
+        Consumer consumes 63682
+Producer produced 96098
+        Consumer consumes 98521
+Producer produced 7685
+        Consumer consumes 61333
+Producer produced 4618
+        Consumer consumes 85669
+Producer produced 99282
+        Consumer consumes 7306
+Producer produced 12056
+        Consumer consumes 96098
+Producer produced 45458
+        Consumer consumes 7685
+Producer produced 98617
+        Consumer consumes 4618
+Producer produced 30758
+        Consumer consumes 99282
+Producer produced 18402
+        Consumer consumes 12056
+Producer produced 88668
+        Consumer consumes 45458
+Producer produced 46621
+        Consumer consumes 98617
+Producer produced 51575
+        Consumer consumes 30758
+        Consumer consumes 18402
+Producer produced 49747
+Producer produced 25314
+        Consumer consumes 88668
+Producer produced 91791
+        Consumer consumes 46621
+Producer produced 52624
+        Consumer consumes 51575
+Producer produced 62716
+        Consumer consumes 49747
+Producer produced 82790
+        Consumer consumes 25314
+Producer produced 79321
+        Consumer consumes 91791
+Producer produced 21111
+        Consumer consumes 52624
+        Consumer consumes 62716
+        Consumer consumes 82790
+Producer produced 65468
+        Consumer consumes 79321
+        Consumer consumes 21111
+        Consumer consumes 65468
+Producer produced 68060
+        Consumer consumes 68060
+Producer produced 54268
+        Consumer consumes 54268
+Producer produced 1122
+        Consumer consumes 1122
+Producer produced 97811
+        Consumer consumes 97811
+Producer produced 68756
+        Consumer consumes 68756
+Producer produced 80588
+        Consumer consumes 80588
+Producer produced 1938
+        Consumer consumes 1938
+Producer produced 1748
+        Consumer consumes 1748
+Producer produced 32546
+        Consumer consumes 32546
+Producer produced 72696
+        Consumer consumes 72696
+Producer produced 88753
+Producer produced 11833
+        Consumer consumes 88753
+        Consumer consumes 11833
+Producer produced 1670
+        Consumer consumes 1670
+Producer produced 85640
+        Consumer consumes 85640
+Producer produced 68964
+        Consumer consumes 68964
+Producer produced 85776
+        Consumer consumes 85776
+Producer produced 70877
+        Consumer consumes 70877
+Producer produced 9472
+        Consumer consumes 9472
+Producer produced 99949
+        Consumer consumes 99949
+Producer produced 38610
+        Consumer consumes 38610
+Producer produced 82276
+Producer produced 47265
+        Consumer consumes 82276
+        Consumer consumes 47265
+Producer produced 38559
+        Consumer consumes 38559
+Producer produced 40212
+        Consumer consumes 40212
+Producer produced 7747
+        Consumer consumes 7747
+Producer produced 4431
+        Consumer consumes 4431
+Producer produced 12030
+        Consumer consumes 12030
+Producer produced 55991
+        Consumer consumes 55991
+Producer produced 84926
+Producer produced 20749
+        Consumer consumes 84926
+Producer produced 27955
+        Consumer consumes 20749
+        Consumer consumes 27955
+Producer produced 77051
+        Consumer consumes 77051
+Producer produced 4659
+        Consumer consumes 4659
+Producer produced 87043
+Producer produced 21098
+        Consumer consumes 87043
+        Consumer consumes 21098
+Producer produced 75280
+        Consumer consumes 75280
+Producer produced 37713
+        Consumer consumes 37713
+Producer produced 78914
+Producer produced 53512
+Producer produced 52780
+        Consumer consumes 78914
+        Consumer consumes 52780
+        Consumer consumes 53512
+Producer produced 22006
+        Consumer consumes 22006
+Producer produced 76222
+        Consumer consumes 76222
+Producer produced 94956
+        Consumer consumes 94956
+Producer produced 90489
+Producer produced 77602
+Producer produced 93594
+Producer produced 25056
+Producer produced 69798
+        Consumer consumes 90489
+        Consumer consumes 77602
+Producer produced 37245
+Producer produced 76130
+        Consumer consumes 93594
+Producer produced 46108
+        Consumer consumes 25056
+Producer produced 49789
+        Consumer consumes 69798
+Producer produced 85794
+        Consumer consumes 37245
+Producer produced 80849
+        Consumer consumes 76130
+        Consumer consumes 46108
+Producer produced 11767
+        Consumer consumes 49789
+        Consumer consumes 85794
+        Consumer consumes 80849
+Producer produced 92725
+        Consumer consumes 11767
+Producer produced 84135
+Producer produced 4051
+        Consumer consumes 92725
+        Consumer consumes 84135
+Producer produced 50059
+Producer produced 35550
+Producer produced 22474
+Producer produced 1477
+        Consumer consumes 4051
+Producer produced 41956
+        Consumer consumes 50059
+Producer produced 45657
+        Consumer consumes 35550
+Producer produced 43033
+        Consumer consumes 22474
+Producer produced 1113
+        Consumer consumes 1477
+Producer produced 59141
+        Consumer consumes 41956
+Producer produced 85322
+        Consumer consumes 45657
+Producer produced 64030
+        Consumer consumes 43033
+Producer produced 70167
+        Consumer consumes 1113
+Producer produced 57830
+        Consumer consumes 59141
+Producer produced 85957
+        Consumer consumes 85322
+Producer produced 58203
+        Consumer consumes 64030
+Producer produced 4302
+        Consumer consumes 70167
+Producer produced 32903
+        Consumer consumes 57830
+Producer produced 44940
+        Consumer consumes 85957
+Producer produced 83779
+        Consumer consumes 58203
+        Consumer consumes 4302
+Producer produced 35003
+Producer produced 47166
+        Consumer consumes 32903
+Producer produced 17094
+        Consumer consumes 44940
+Producer produced 29124
+        Consumer consumes 83779
+Producer produced 44391
+        Consumer consumes 35003
+Producer produced 82119
+        Consumer consumes 47166
+Producer produced 64299
+        Consumer consumes 17094
+Producer produced 82193
+Producer produced 1737
+        Consumer consumes 29124
+        Consumer consumes 44391
+Producer produced 81363
+        Consumer consumes 82119
+Producer produced 67384
+        Consumer consumes 64299
+Producer produced 97502
+        Consumer consumes 82193
+Producer produced 91968
+        Consumer consumes 1737
+Producer produced 37216
+        Consumer consumes 81363
+Producer produced 87956
+        Consumer consumes 67384
+Producer produced 82175
+        Consumer consumes 97502
+Producer produced 1415
+        Consumer consumes 91968
+Producer produced 90590
+        Consumer consumes 37216
+Producer produced 68924
+        Consumer consumes 87956
+Producer produced 78530
+        Consumer consumes 82175
+Producer produced 86119
+        Consumer consumes 1415
+Producer produced 63973
+Producer produced 4724
+        Consumer consumes 90590
+Producer produced 10992
+        Consumer consumes 68924
+        Consumer consumes 78530
+Producer produced 30123
+        Consumer consumes 86119
+Producer produced 81669
+        Consumer consumes 63973
+Producer produced 89477
+        Consumer consumes 4724
+Producer produced 60753
+        Consumer consumes 10992
+Producer produced 66445
+        Consumer consumes 30123
+Producer produced 80070
+        Consumer consumes 81669
+Producer produced 67000
+        Consumer consumes 89477
+        Consumer consumes 60753
+Producer produced 84774
+        Consumer consumes 80070
+        Consumer consumes 66445
+        Consumer consumes 67000
+        Consumer consumes 84774
+Producer produced 45480
+        Consumer consumes 45480
+Producer produced 97437
+        Consumer consumes 97437
+Producer produced 59595
+Producer produced 16585
+Producer produced 33444
+Producer produced 60372
+        Consumer consumes 59595
+        Consumer consumes 16585
+Producer produced 67892
+        Consumer consumes 33444
+Producer produced 78789
+Producer produced 81926
+Producer produced 1251
+        Consumer consumes 60372
+        Consumer consumes 67892
+Producer produced 66115
+Producer produced 39258
+        Consumer consumes 78789
+Producer produced 32493
+        Consumer consumes 81926
+Producer produced 68286
+        Consumer consumes 1251
+        Consumer consumes 66115
+        Consumer consumes 39258
+Producer produced 16143
+Producer produced 85814
+        Consumer consumes 32493
+        Consumer consumes 68286
+Producer produced 24020
+        Consumer consumes 16143
+        Consumer consumes 85814
+Producer produced 39688
+Producer produced 99585
+        Consumer consumes 24020
+        Consumer consumes 39688
+        Consumer consumes 99585
+Producer produced 57372
+        Consumer consumes 57372
+Producer produced 13923
+        Consumer consumes 13923
+Producer produced 29253
+        Consumer consumes 29253
+Producer produced 30172
+Producer produced 77574
+Producer produced 53618
+        Consumer consumes 30172
+        Consumer consumes 77574
+        Consumer consumes 53618
+Producer produced 17836
+Producer produced 17896
+Producer produced 83815
+        Consumer consumes 17836
+Producer produced 67580
+Producer produced 75068
+Producer produced 16922
+        Consumer consumes 17896
+Producer produced 77385
+        Consumer consumes 83815
+Producer produced 3803
+        Consumer consumes 67580
+        Consumer consumes 75068
+        Consumer consumes 16922
+        Consumer consumes 77385
+        Consumer consumes 3803
+Producer produced 58342
+        Consumer consumes 58342
+Producer produced 71137
+        Consumer consumes 71137
+Producer produced 75797
+        Consumer consumes 75797
+Producer produced 48902
+        Consumer consumes 48902
+Producer produced 81768
+        Consumer consumes 81768
+Producer produced 34480
+        Consumer consumes 34480
+Producer produced 14450
+        Consumer consumes 14450
+Producer produced 40612
+        Consumer consumes 40612
+Producer produced 46745
+        Consumer consumes 46745
+Producer produced 14787
+        Consumer consumes 14787
+Producer produced 57796
+        Consumer consumes 57796
+Producer produced 35147
+        Consumer consumes 35147
+Producer produced 21024
+        Consumer consumes 21024
+Producer produced 49647
+        Consumer consumes 49647
+Producer produced 4341
+        Consumer consumes 4341
+Producer produced 28730
+        Consumer consumes 28730
+Producer produced 84767
+        Consumer consumes 84767
+Producer produced 77771
+        Consumer consumes 77771
+Producer produced 90482
+        Consumer consumes 90482
+Producer produced 27311
+        Consumer consumes 27311
+Producer produced 52077
+        Consumer consumes 52077
+Producer produced 83413
+        Consumer consumes 83413
+Producer produced 51980
+        Consumer consumes 51980
+Producer produced 54982
+        Consumer consumes 54982
+Producer produced 34466
+Producer produced 23522
+        Consumer consumes 34466
+        Consumer consumes 23522
+Producer produced 6335
+        Consumer consumes 6335
+Producer produced 67246
+        Consumer consumes 67246
+Producer produced 43787
+        Consumer consumes 43787
+Producer produced 88390
+Producer produced 20367
+        Consumer consumes 88390
+        Consumer consumes 20367
+Producer produced 61193
+        Consumer consumes 61193
+Producer produced 36893
+        Consumer consumes 36893
+Producer produced 94012
+        Consumer consumes 94012
+Producer produced 36557
+        Consumer consumes 36557
+Producer produced 1921
+        Consumer consumes 1921
+Producer produced 33638
+        Consumer consumes 33638
+Producer produced 57299
+        Consumer consumes 57299
+Producer produced 57082
+        Consumer consumes 57082
+Producer produced 86210
+        Consumer consumes 86210
+Producer produced 13183
+        Consumer consumes 13183
+Producer produced 65237
+        Consumer consumes 65237
+Producer produced 25283
+        Consumer consumes 25283
+Producer produced 81911
+        Consumer consumes 81911
+Producer produced 74333
+Producer produced 26772
+        Consumer consumes 74333
+        Consumer consumes 26772
+Producer produced 95274
+        Consumer consumes 95274
+Producer produced 81349
+        Consumer consumes 81349
+Producer produced 81959
+        Consumer consumes 81959
+Producer produced 94163
+        Consumer consumes 94163
+Producer produced 28901
+        Consumer consumes 28901
+Producer produced 4638
+        Consumer consumes 4638
+Producer produced 36002
+        Consumer consumes 36002
+Producer produced 53295
+        Consumer consumes 53295
+Producer produced 79328
+        Consumer consumes 79328
+Producer produced 55139
+        Consumer consumes 55139
+Producer produced 8616
+        Consumer consumes 8616
+Producer produced 18665
+        Consumer consumes 18665
+Producer produced 12925
+        Consumer consumes 12925
+Producer produced 10105
+        Consumer consumes 10105
+Producer produced 38200
+        Consumer consumes 38200
+Producer produced 92241
+        Consumer consumes 92241
+Producer produced 97468
+        Consumer consumes 97468
+Producer produced 17958
+        Consumer consumes 17958
+Producer produced 87846
+        Consumer consumes 87846
+Producer produced 70319
+Producer produced 65461
+Producer produced 1160
+        Consumer consumes 70319
+Producer produced 54355
+        Consumer consumes 65461
+Producer produced 97361
+Producer produced 81474
+        Consumer consumes 1160
+Producer produced 77395
+        Consumer consumes 54355
+Producer produced 9239
+        Consumer consumes 97361
+        Consumer consumes 81474
+Producer produced 26668
+        Consumer consumes 77395
+Producer produced 7930
+Producer produced 58757
+Producer produced 16827
+        Consumer consumes 9239
+Producer produced 24465
+        Consumer consumes 26668
+Producer produced 80024
+        Consumer consumes 7930
+Producer produced 95176
+        Consumer consumes 58757
+Producer produced 2723
+        Consumer consumes 16827
+        Consumer consumes 24465
+Producer produced 3599
+        Consumer consumes 80024
+Producer produced 46106
+        Consumer consumes 95176
+        Consumer consumes 2723
+Producer produced 96355
+        Consumer consumes 3599
+        Consumer consumes 46106
+Producer produced 65864
+Producer produced 65662
+Producer produced 40837
+        Consumer consumes 96355
+Producer produced 10493
+Producer produced 32452
+        Consumer consumes 65864
+Producer produced 83823
+        Consumer consumes 65662
+Producer produced 65926
+        Consumer consumes 40837
+Producer produced 11119
+        Consumer consumes 10493
+        Consumer consumes 32452
+Producer produced 96550
+        Consumer consumes 83823
+        Consumer consumes 65926
+Producer produced 75117
+Producer produced 80435
+Producer produced 34181
+        Consumer consumes 11119
+Producer produced 72422
+        Consumer consumes 96550
+Producer produced 36687
+Producer produced 72816
+        Consumer consumes 80435
+        Consumer consumes 75117
+        Consumer consumes 34181
+Producer produced 97777
+Producer produced 3251
+        Consumer consumes 72422
+        Consumer consumes 36687
+        Consumer consumes 72816
+        Consumer consumes 97777
+        Consumer consumes 3251
+Producer produced 46174
+        Consumer consumes 46174
+Producer produced 97838
+Producer produced 75659
+        Consumer consumes 97838
+        Consumer consumes 75659
+Producer produced 84775
+        Consumer consumes 84775
+Producer produced 59358
+        Consumer consumes 59358
+Producer produced 52718
+        Consumer consumes 52718
+Producer produced 74921
+        Consumer consumes 74921
+Producer produced 94876
+        Consumer consumes 94876
+Producer produced 10010
+        Consumer consumes 10010
+Producer produced 42659
+        Consumer consumes 42659
+Producer produced 23255
+        Consumer consumes 23255
+Producer produced 55096
+        Consumer consumes 55096
+Producer produced 18896
+        Consumer consumes 18896
+Producer produced 66709
+        Consumer consumes 66709
+Producer produced 54036
+        Consumer consumes 54036
+Producer produced 79715
+        Consumer consumes 79715
+Producer produced 88054
+        Consumer consumes 88054
+Producer produced 12161
+        Consumer consumes 12161
+Producer produced 37704
+        Consumer consumes 37704
+Producer produced 58873
+        Consumer consumes 58873
+Producer produced 56776
+Producer produced 64702
+        Consumer consumes 56776
+Producer produced 64773
+Producer produced 17019
+Producer produced 54832
+        Consumer consumes 64702
+Producer produced 93210
+Producer produced 33274
+        Consumer consumes 64773
+Producer produced 53568
+        Consumer consumes 17019
+        Consumer consumes 54832
+        Consumer consumes 93210
+        Consumer consumes 33274
+        Consumer consumes 53568
+Producer produced 7984
+        Consumer consumes 7984
+Producer produced 76835
+        Consumer consumes 76835
+Producer produced 24814
+        Consumer consumes 24814
+Producer produced 55561
+        Consumer consumes 55561
+Producer produced 98798
+        Consumer consumes 98798
+Producer produced 75490
+        Consumer consumes 75490
+Producer produced 84607
+        Consumer consumes 84607
+Producer produced 95602
+        Consumer consumes 95602
+Producer produced 24509
+        Consumer consumes 24509
+Producer produced 61730
+        Consumer consumes 61730
+Producer produced 52887
+Producer produced 61605
+Producer produced 30532
+Producer produced 68943
+        Consumer consumes 52887
+Producer produced 37799
+        Consumer consumes 61605
+        Consumer consumes 30532
+        Consumer consumes 68943
+        Consumer consumes 37799
+Producer produced 50408
+        Consumer consumes 50408
+Producer produced 85805
+        Consumer consumes 85805
+Producer produced 37945
+        Consumer consumes 37945
+Producer produced 35395
+        Consumer consumes 35395
+Producer produced 60598
+        Consumer consumes 60598
+Producer produced 71020
+        Consumer consumes 71020
+Producer produced 52279
+        Consumer consumes 52279
+Producer produced 39514
+        Consumer consumes 39514
+Producer produced 37228
+        Consumer consumes 37228
+Producer produced 73322
+        Consumer consumes 73322
+Producer produced 68584
+        Consumer consumes 68584
+Producer produced 42160
+        Consumer consumes 42160
+Producer produced 31961
+        Consumer consumes 31961
+Producer produced 30605
+        Consumer consumes 30605
+Producer produced 93972
+        Consumer consumes 93972
+Producer produced 20089
+        Consumer consumes 20089
+Producer produced 36888
+        Consumer consumes 36888
+Producer produced 37125
+        Consumer consumes 37125
+Producer produced 99633
+        Consumer consumes 99633
+Producer produced 47028
+        Consumer consumes 47028
+Producer produced 40955
+        Consumer consumes 40955
+Producer produced 95414
+        Consumer consumes 95414
+Producer produced 10403
+        Consumer consumes 10403
