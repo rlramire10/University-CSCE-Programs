@@ -1,0 +1,12 @@
+
+answer.txt
+
+In order to figure out how many times the reduce method gets used, you need to create a
+counter within the reduce method. When counting the map mrthod, we utilized wordpairs and
+emitted one every time the map method was used. While that was a good apporach, we can not
+do the same thing here since emitting a wordpair within the reducer will not allow it to
+get combined and counted. Instead, we could create a counter variable and increment it by 1
+everytime the reduce method runs. To print the result, the final value of the counter
+would be implemented into a wordpair and then emitted within the cleanup() method. This 
+would insure that only one count would be produced and only after the entire reduce task is
+complete.
