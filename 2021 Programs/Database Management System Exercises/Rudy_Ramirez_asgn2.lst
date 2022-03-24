@@ -1,0 +1,47 @@
+SQL> SELECT Count(*) FROM Customers
+  2  WHERE state = 'AR' AND city = NULL;
+
+  COUNT(*)                                                                      
+----------                                                                      
+         0                                                                      
+
+SQL> SELECT DISTINCT name, id FROM Customers Where id in (
+  2  SELECT c_id FROM Transactions WHERE item_id in (
+  3  SELECT item_no From Items Where price = ( SELECT Max(price) FROM Items )
+  4  ) );
+
+NAME               ID                                                           
+---------- ----------                                                           
+Juan           415161                                                           
+Hannah          21222                                                           
+
+SQL> SELECT description, qty_in_stock FROM Items Where item_no NOT in (
+  2  SELECT DISTINCT item_id From Transactions);
+
+DESCRIPTIO QTY_IN_STOCK                                                         
+---------- ------------                                                         
+Chips               300                                                         
+Salad               175                                                         
+Sandwitch           250                                                         
+
+SQL> SELECT item_no, description, price FROM Items Where item_no in (
+  2  SELECT DISTINCT item_id From Transactions);
+
+   ITEM_NO DESCRIPTIO      PRICE                                                
+---------- ---------- ----------                                                
+ 525071133 Pizza           12.99                                                
+ 525171033 Tea              3.85                                                
+ 525071033 E-drink          2.95                                                
+ 525071043 Hot Dog          6.45                                                
+ 526071033 Soda Pack        7.99                                                
+ 525071034 Burger           7.99                                                
+ 535071033 Water Bott       1.99                                                
+
+7 rows selected.
+
+SQL> SELECT DISTINCT trans_date from Transactions Where item_id in (
+  2  SELECT item_no from Items Where price > 400);
+
+no rows selected
+
+SQL> spool off;

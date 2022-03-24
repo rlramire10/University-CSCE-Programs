@@ -1,0 +1,191 @@
+SQL> get Ramirez.sql;
+  1  set serveroutput on;
+  2  ACCEPT c_id PROMPT "Enter Customer ID: ";
+  3  ACCEPT item_id PROMPT "Enter Item ID: ";
+  4  ACCEPT item_qty PROMPT "Enter Quantity of Item(s) Sold: ";
+  5  DECLARE
+  6  	c_id INTEGER;
+  7  	item_id INTEGER;
+  8  	item_qty INTEGER;
+  9  	trans_date DATE;
+ 10  	counter1 INTEGER;
+ 11  	counter2 INTEGER;
+ 12  	counter3 INTEGER;
+ 13  	counter4 INTEGER;
+ 14  	c_id_not_found EXCEPTION;
+ 15  	item_id_not_found EXCEPTION;
+ 16  	item_qty_greater_than_stock EXCEPTION;
+ 17  BEGIN
+ 18  	COMMIT;
+ 19  	c_id := &c_id;
+ 20  	item_id := &item_id;
+ 21  	item_qty := &item_qty;
+ 22  	trans_date := TO_DATE(Sysdate, 'DD-MON-YY');
+ 23  	SELECT COUNT(*) INTO counter1 FROM Customers WHERE id = c_id;
+ 24  	SELECT COUNT(*) INTO counter2 FROM Items WHERE item_no = item_id;
+ 25  	SELECT COUNT(*) INTO counter3 FROM Items WHERE item_no = item_id AND item_qty <= qty_in_stock;
+ 26  	IF counter1 = 0 THEN
+ 27  		RAISE c_id_not_found;
+ 28  	ELSIF counter2 = 0 THEN
+ 29  		RAISE item_id_not_found;
+ 30  	ELSIF counter3 = 0 THEN
+ 31  		RAISE item_qty_greater_than_stock;
+ 32  	ELSE
+ 33  		DBMS_OUTPUT.PUT_LINE('Successful Addition Of New Record.');
+ 34  	END IF;
+ 35  	INSERT INTO Transactions VALUES(c_id, item_id, item_qty, trans_date);
+ 36  	SELECT qty_in_stock INTO counter4 FROM Items WHERE item_no = item_id;
+ 37  	UPDATE Items SET qty_in_stock = counter4 - item_qty WHERE item_no = item_id;
+ 38  EXCEPTION
+ 39  	WHEN c_id_not_found THEN
+ 40  		DBMS_OUTPUT.PUT_LINE('Customer ID Not Found. Now Exiting Procedure.');
+ 41  		ROLLBACK;
+ 42  		RETURN;
+ 43  	WHEN item_id_not_found THEN
+ 44  		DBMS_OUTPUT.PUT_LINE('Item ID Not Found. Now Exiting Procedure.');
+ 45  		ROLLBACK;
+ 46  		RETURN;
+ 47  	WHEN item_qty_greater_than_stock THEN
+ 48  		DBMS_OUTPUT.PUT_LINE('Item Qty is greater than Item Stock Value. Now Exiting Procedure.');
+ 49  		ROLLBACK;
+ 50  		RETURN;
+ 51* END;
+ 52  /
+old  19: 	c_id := &c_id;
+new  19: 	c_id := 324252;
+old  20: 	item_id := &item_id;
+new  20: 	item_id := 525171033;
+old  21: 	item_qty := &item_qty;
+new  21: 	item_qty := 10;
+set serveroutput on;
+    *
+ERROR at line 1:
+ORA-00922: missing or invalid option 
+
+
+SQL> @Ramirez.sql;
+Enter Customer ID: 10
+Enter Item ID: 525171033
+Enter Quantity of Item(s) Sold: 10
+old  19: 	c_id := &c_id;
+new  19: 	c_id := 10;
+old  20: 	item_id := &item_id;
+new  20: 	item_id := 525171033;
+old  21: 	item_qty := &item_qty;
+new  21: 	item_qty := 10;
+Customer ID Not Found. Now Exiting Procedure.                                   
+
+PL/SQL procedure successfully completed.
+
+SQL> @Ramirez.sql;
+Enter Customer ID: 324252
+Enter Item ID: 10
+Enter Quantity of Item(s) Sold: 10
+old  19: 	c_id := &c_id;
+new  19: 	c_id := 324252;
+old  20: 	item_id := &item_id;
+new  20: 	item_id := 10;
+old  21: 	item_qty := &item_qty;
+new  21: 	item_qty := 10;
+Item ID Not Found. Now Exiting Procedure.                                       
+
+PL/SQL procedure successfully completed.
+
+SQL> @Ramirez.sql;
+Enter Customer ID: 324252
+Enter Item ID: 525171033
+Enter Quantity of Item(s) Sold: 3000
+old  19: 	c_id := &c_id;
+new  19: 	c_id := 324252;
+old  20: 	item_id := &item_id;
+new  20: 	item_id := 525171033;
+old  21: 	item_qty := &item_qty;
+new  21: 	item_qty := 3000;
+Item Qty is greater than Item Stock Value. Now Exiting Procedure.               
+
+PL/SQL procedure successfully completed.
+
+SQL> Select * from Items;
+
+   ITEM_NO DESCRIPTIO QTY_IN_STOCK      PRICE                                   
+---------- ---------- ------------ ----------                                   
+ 525071033 E-drink              50       2.95                                   
+ 535071033 Water Bott        10000       1.99                                   
+ 526071033 Soda Pack          5000       7.99                                   
+ 525171033 Tea                1990       3.85                                   
+ 525081033 Chips               300       1.99                                   
+ 525072033 Sandwitch           250       4.99                                   
+ 525071133 Pizza               250      12.99                                   
+ 525071043 Hot Dog             250       6.45                                   
+ 525071034 Burger              250       7.99                                   
+ 525071035 Salad               175       4.99                                   
+
+10 rows selected.
+
+SQL> Select * from Transactions;
+
+      C_ID    ITEM_ID   ITEM_QTY TRANS_DAT                                      
+---------- ---------- ---------- ---------                                      
+    123456  525071033          2 14-SEP-21                                      
+    123456  526071033          1 14-SEP-21                                      
+    123456  525071043          4 14-SEP-21                                      
+    415161  525071133          1 27-AUG-21                                      
+    415161  526071033          1 14-SEP-21                                      
+    233343  525071034         10 15-JUL-21                                      
+    233343  526071033          3 15-JUL-21                                      
+    233343  535071033         20 15-JUL-21                                      
+     21222  525171033          2 05-JUN-21                                      
+     21222  525071133          1 05-JUN-21                                      
+
+10 rows selected.
+
+SQL> @Ramirez.sql;
+Enter Customer ID: 324252
+Enter Item ID: 525171033
+Enter Quantity of Item(s) Sold: 10
+old  19: 	c_id := &c_id;
+new  19: 	c_id := 324252;
+old  20: 	item_id := &item_id;
+new  20: 	item_id := 525171033;
+old  21: 	item_qty := &item_qty;
+new  21: 	item_qty := 10;
+Successful Addition Of New Record.                                              
+
+PL/SQL procedure successfully completed.
+
+SQL> Select * from Items;
+
+   ITEM_NO DESCRIPTIO QTY_IN_STOCK      PRICE                                   
+---------- ---------- ------------ ----------                                   
+ 525071033 E-drink              50       2.95                                   
+ 535071033 Water Bott        10000       1.99                                   
+ 526071033 Soda Pack          5000       7.99                                   
+ 525171033 Tea                1980       3.85                                   
+ 525081033 Chips               300       1.99                                   
+ 525072033 Sandwitch           250       4.99                                   
+ 525071133 Pizza               250      12.99                                   
+ 525071043 Hot Dog             250       6.45                                   
+ 525071034 Burger              250       7.99                                   
+ 525071035 Salad               175       4.99                                   
+
+10 rows selected.
+
+SQL> Select * from Transactions;
+
+      C_ID    ITEM_ID   ITEM_QTY TRANS_DAT                                      
+---------- ---------- ---------- ---------                                      
+    123456  525071033          2 14-SEP-21                                      
+    123456  526071033          1 14-SEP-21                                      
+    123456  525071043          4 14-SEP-21                                      
+    415161  525071133          1 27-AUG-21                                      
+    415161  526071033          1 14-SEP-21                                      
+    233343  525071034         10 15-JUL-21                                      
+    233343  526071033          3 15-JUL-21                                      
+    233343  535071033         20 15-JUL-21                                      
+     21222  525171033          2 05-JUN-21                                      
+     21222  525071133          1 05-JUN-21                                      
+    324252  525171033         10 05-DEC-21                                      
+
+11 rows selected.
+
+SQL> spool off;

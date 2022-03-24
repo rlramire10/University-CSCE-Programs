@@ -1,0 +1,128 @@
+SQL> Select * from cat;
+
+TABLE_NAME   TABLE_TYPE                                                         
+------------ -----------                                                        
+CUSTOMERS    TABLE                                                              
+ITEMS        TABLE                                                              
+TRANSACTIONS TABLE                                                              
+
+SQL> desc customers;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ID                                        NOT NULL NUMBER(38)
+ NAME                                      NOT NULL CHAR(10)
+ CITY                                               CHAR(10)
+ STATE                                              CHAR(3)
+ EMAIL                                     NOT NULL CHAR(20)
+
+SQL> desc items;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ITEM_NO                                   NOT NULL NUMBER(38)
+ DESCIPTION                                NOT NULL CHAR(10)
+ QTY_IN_STOCK                              NOT NULL NUMBER(38)
+ PRICE                                     NOT NULL NUMBER(5,2)
+
+SQL> desc transactions;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ C_ID                                      NOT NULL NUMBER(38)
+ ITEM_ID                                   NOT NULL NUMBER(38)
+ ITEM_QTY                                  NOT NULL NUMBER(38)
+ TRANS_DATE                                NOT NULL DATE
+
+SQL> select a.owner, a.table_name, column_name primary_key,
+  2              a.constraint_name
+  3        from   user_cons_columns a, user_constraints b
+  4        where  a.constraint_name = b.constraint_name and
+  5               constraint_type = 'P';
+
+OWNER        TABLE_NAME   PRIMARY_KEY  CONSTRAINT_NAME                          
+------------ ------------ ------------ ------------------------------           
+DBCLASS38    CUSTOMERS    ID           SYS_C0028172                             
+DBCLASS38    ITEMS        ITEM_NO      SYS_C0028179                             
+DBCLASS38    TRANSACTIONS C_ID         SYS_C0028185                             
+DBCLASS38    TRANSACTIONS ITEM_ID      SYS_C0028185                             
+
+SQL> select a.owner, a.table_name, a.column_name foreign_key,
+  2               b.table_name Referring_table, b.column_name
+  3               Primary_key
+  4        from   user_cons_columns a, user_cons_columns b,
+  5               user_constraints c
+  6        where  a.constraint_name = c.constraint_name and
+  7               c.r_constraint_name = b.constraint_name;
+
+OWNER        TABLE_NAME   FOREIGN_KEY  REFERRING_TABLE PRIMARY_KEY              
+------------ ------------ ------------ --------------- ------------             
+DBCLASS38    TRANSACTIONS C_ID         CUSTOMERS       ID                       
+DBCLASS38    TRANSACTIONS ITEM_ID      ITEMS           ITEM_NO                  
+
+SQL> select owner, table_name, search_condition from
+  2          user_constraints where search_condition is not null;
+
+OWNER        TABLE_NAME   SEARCH_CONDITION                                      
+------------ ------------ ---------------------------------------------         
+DBCLASS38    TRANSACTIONS item_qty > 0                                          
+DBCLASS38    TRANSACTIONS "TRANS_DATE" IS NOT NULL                              
+DBCLASS38    TRANSACTIONS "ITEM_QTY" IS NOT NULL                                
+DBCLASS38    ITEMS        1.00 <= price and price <= 500.00                     
+DBCLASS38    ITEMS        "PRICE" IS NOT NULL                                   
+DBCLASS38    ITEMS        "QTY_IN_STOCK" IS NOT NULL                            
+DBCLASS38    ITEMS        "DESCIPTION" IS NOT NULL                              
+DBCLASS38    CUSTOMERS    "EMAIL" IS NOT NULL                                   
+DBCLASS38    CUSTOMERS    "NAME" IS NOT NULL                                    
+
+9 rows selected.
+
+SQL> Select * from customers;
+
+        ID NAME       CITY       STA EMAIL                                      
+---------- ---------- ---------- --- --------------------                       
+    123456 James      Downey     CA  testemail01.com                            
+    789101 Sally      New York   NY  testemail02.com                            
+    112131 Alex       Santa Fe   CA  testemail03.com                            
+    415161 Juan       Asheville  NC  testemail04.com                            
+    718192 Stephanie  Norwalk    CA  testemail05.com                            
+     21222 Hannah     Rogers     AR  testemail06.com                            
+    324252 Alejandro  Lowell     AR  testemail07.com                            
+    627282 Jay        Santa Fe   CA  testemail08.com                            
+    930313 Daisy      Dallas     TX  testemail09.com                            
+    233343 Ray        Austin     TX  testemail10.com                            
+
+10 rows selected.
+
+SQL> Select * from items;
+
+   ITEM_NO DESCIPTION QTY_IN_STOCK      PRICE                                   
+---------- ---------- ------------ ----------                                   
+ 525071033 E-drink              50       2.95                                   
+ 535071033 Water Bott        10000       1.99                                   
+ 526071033 Soda Pack          5000       7.99                                   
+ 525171033 Tea                2000       3.85                                   
+ 525081033 Chips               300       1.99                                   
+ 525072033 Sandwitch           250       4.99                                   
+ 525071133 Pizza               250      12.99                                   
+ 525071043 Hot Dog             250       6.45                                   
+ 525071034 Burger              250       7.99                                   
+ 525071035 Salad               175       4.99                                   
+
+10 rows selected.
+
+SQL> Select * from transactions;
+
+      C_ID    ITEM_ID   ITEM_QTY TRANS_DAT                                      
+---------- ---------- ---------- ---------                                      
+    123456  525071033          2 14-SEP-21                                      
+    123456  526071033          1 14-SEP-21                                      
+    123456  525071043          4 14-SEP-21                                      
+    415161  525071133          1 27-AUG-21                                      
+    415161  526071033          1 14-SEP-21                                      
+    233343  525071034         10 15-JUL-21                                      
+    233343  526071033          3 15-JUL-21                                      
+    233343  535071033         20 15-JUL-21                                      
+     21222  525171033          2 05-JUN-21                                      
+     21222  525071133          1 05-JUN-21                                      
+
+10 rows selected.
+
+SQL> spool off;

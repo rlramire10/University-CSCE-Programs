@@ -1,0 +1,58 @@
+SQL> SELECT TO_CHAR(trans_date, 'Month'), Count(trans_date) From Transactions Where
+  2  trans_date >= '01-JAN-20' AND trans_date <= '31-DEC-20'
+  3  GROUP BY trans_date;
+
+no rows selected
+
+SQL> SELECT DISTINCT c.Name FROM Customers c JOIN Transactions t ON
+  2  c.ID = t.C_ID AND TO_CHAR(t.trans_date, 'DY') = 'SUN';
+
+no rows selected
+
+SQL> SELECT item_no, description, price FROM Items WHERE item_no NOT IN (
+  2  SELECT DISTINCT item_id From Transactions WHERE
+  3  trans_date = TO_DATE(Sysdate - 1, 'DD-MON-YY') );
+
+   ITEM_NO DESCRIPTIO      PRICE                                                
+---------- ---------- ----------                                                
+ 525071033 E-drink          2.95                                                
+ 526071033 Soda Pack        7.99                                                
+ 535071033 Water Bott       1.99                                                
+ 525071034 Burger           7.99                                                
+ 525081033 Chips            1.99                                                
+ 525071043 Hot Dog          6.45                                                
+ 525071035 Salad            4.99                                                
+ 525171033 Tea              3.85                                                
+ 525072033 Sandwitch        4.99                                                
+ 525071133 Pizza           12.99                                                
+
+10 rows selected.
+
+SQL> SELECT DISTINCT c.Name||'Star Customer', COUNT(t.trans_date)
+  2  FROM Customers c JOIN Transactions t ON c.ID = t.C_ID
+  3  AND t.trans_date >= Sysdate-10 AND trans_date <= Sysdate-1
+  4  GROUP BY c.Name
+  5  HAVING Count(t.trans_date) = (
+  6  SELECT MAX(custom_count)
+  7  FROM (
+  8  SELECT c.Name, Count(t.trans_date) AS custom_count
+  9  FROM Customers c JOIN Transactions t ON c.ID = t.C_ID
+ 10  AND t.trans_date >= Sysdate-10 AND trans_date <= Sysdate-1
+ 11  GROUP BY c.Name));
+
+no rows selected
+
+SQL> Set Long 500;
+SQL> Select text from user_views where view_name = 'CUST_PURCHASES';
+
+TEXT                                                                            
+--------------------------------------------------------------------------------
+Select c.ID, c.Name, Nvl(count(t.Item_ID), 0)                                   
+FROM Customers c LEFT JOIN Transactions t                                       
+ON c.ID = t.C_ID                                                                
+AND t.trans_date >= Last_Day(Add_Months(Sysdate, -2))+1                         
+AND trans_date <= Last_Day(Add_Months(Sysdate, -1))                             
+GROUP BY c.ID, c.Name                                                           
+                                                                                
+
+SQL> spool off;

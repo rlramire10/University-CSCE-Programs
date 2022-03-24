@@ -1,0 +1,78 @@
+SQL> SELECT Name, Description, MIN(Trans_Date) FROM Customers, Items, Transactions WHERE
+  2  Customers.State = 'TX'
+  3  AND Customers.ID = Transactions.C_ID
+  4  AND Items.Item_No = Transactions.Item_ID
+  5  GROUP BY Name, Description;
+
+NAME       DESCRIPTIO MIN(TRANS                                                 
+---------- ---------- ---------                                                 
+Ray        Burger     15-JUL-21                                                 
+Ray        Soda Pack  15-JUL-21                                                 
+Ray        Water Bott 15-JUL-21                                                 
+
+SQL> SELECT Name, Email, ID, Description, Trans_Date FROM Customers, Items, Transactions WHERE
+  2  Customers.ID = Transactions.C_ID
+  3  AND Items.Item_No = Transactions.Item_ID;
+
+NAME       EMAIL                        ID DESCRIPTIO TRANS_DAT                 
+---------- -------------------- ---------- ---------- ---------                 
+James      testemail01.com          123456 E-drink    14-SEP-21                 
+James      testemail01.com          123456 Soda Pack  14-SEP-21                 
+James      testemail01.com          123456 Hot Dog    14-SEP-21                 
+Juan       testemail04.com          415161 Pizza      27-AUG-21                 
+Juan       testemail04.com          415161 Soda Pack  14-SEP-21                 
+Ray        testemail10.com          233343 Burger     15-JUL-21                 
+Ray        testemail10.com          233343 Soda Pack  15-JUL-21                 
+Ray        testemail10.com          233343 Water Bott 15-JUL-21                 
+Hannah     testemail06.com           21222 Tea        05-JUN-21                 
+Hannah     testemail06.com           21222 Pizza      05-JUN-21                 
+
+10 rows selected.
+
+SQL> SELECT ITEM_NO, Description, COUNT(Item_ID) FROM Items LEFT JOIN Transactions ON
+  2  Items.Item_No = Transactions.Item_ID
+  3  GROUP BY ITEM_NO, Description;
+
+   ITEM_NO DESCRIPTIO COUNT(ITEM_ID)                                            
+---------- ---------- --------------                                            
+ 525071033 E-drink                 1                                            
+ 525071035 Salad                   0                                            
+ 525071133 Pizza                   2                                            
+ 525071043 Hot Dog                 1                                            
+ 525071034 Burger                  1                                            
+ 525081033 Chips                   0                                            
+ 526071033 Soda Pack               3                                            
+ 525171033 Tea                     1                                            
+ 525072033 Sandwitch               0                                            
+ 535071033 Water Bott              1                                            
+
+10 rows selected.
+
+SQL> SELECT DISTINCT Item_no, Price, Name FROM Customers, Items, Transactions WHERE
+  2  Items.Price > 200
+  3  AND Customers.ID = Transactions.C_ID
+  4  AND Items.Item_No = Transactions.Item_ID
+  5  ORDER BY Price Desc;
+
+no rows selected
+
+SQL> SELECT ID, Name, Count(Item_ID) FROM Customers LEFT JOIN Transactions ON
+  2  Customers.ID = Transactions.C_ID
+  3  GROUP BY ID, Name;
+
+        ID NAME       COUNT(ITEM_ID)                                            
+---------- ---------- --------------                                            
+    415161 Juan                    2                                            
+    930313 Daisy                   0                                            
+    123456 James                   3                                            
+    627282 Jay                     0                                            
+    112131 Alex                    0                                            
+    233343 Ray                     3                                            
+    324252 Alejandro               0                                            
+    789101 Sally                   0                                            
+     21222 Hannah                  2                                            
+    718192 Stephanie               0                                            
+
+10 rows selected.
+
+SQL> spool off;
