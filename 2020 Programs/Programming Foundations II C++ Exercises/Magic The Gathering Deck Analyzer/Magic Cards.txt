@@ -1,0 +1,101 @@
+10
+Angelic Gift
+2
+Enchantment - Aura
+Zendikar will triumph this day, and our armies will fly with angels.
+19
+Common
+Good Condition
+0.15
+0.03
+10
+Natural Affinity
+3
+Instant
+As long as the dryads are a part of the forest, the forest is a part of the army.
+260
+Rare
+Excellent Condition
+0.99
+0.99
+3
+Forest
+0
+Basic Land
+G
+151
+Common
+Average Condition
+0.25
+0.03
+5
+Entomb
+1
+Instant
+I'll return once you've ripened.
+94
+Rare
+Excellent Condition
+5.00
+9.00
+1
+Morbid Curiosity
+3
+Sorcery
+Every creation carries a piece of its creators.
+149
+Uncommon
+Good Condition
+0.99
+0.20
+3
+Suntail Hawk
+1
+Creature - Bird
+Its eye the glaring sun, its cry the keening wind.
+51
+Common
+Average Condition
+0.99
+0.20
+3
+Tin Street Market
+5
+Enchantment - Aura
+Sometimes I stroll along Tin Street and watch citizens busy with their daily lives.
+108
+Common
+Poor Condition
+0.15
+0.02
+4
+Prophetic Prism
+2
+Artifact
+The explorer who found it got a bad deal when he sold it. He merely got rich.
+229
+Common
+Good Condition
+1.50
+0.34
+2
+Inferno Trap
+4
+Instant - Trap
+Do you smell something burning?
+133
+Uncommon
+Poor Condition
+1.25
+0.35
+1
+Enormous Baloth
+7
+Creature - Beast
+Its diet consists of fruits, plants, woodland animals, fruit farmers, and small cities.
+9
+Uncommon
+Good Condition
+0.50
+0.35
+3
