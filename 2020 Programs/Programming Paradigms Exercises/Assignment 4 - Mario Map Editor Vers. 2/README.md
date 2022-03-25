@@ -1,6 +1,8 @@
 This program is a Map Editor based on the videogame Super Mario.
 
+
 Program Properties:
+
 If you click anywhere on the screen, a mario style tube will appear.
 
 If a Tube is clicked, it gets removed.
