@@ -1,6 +1,6 @@
 This html page serves as a basic tutorial for some basic functions.
 
-Styleizing the Page:
+Stylizing the Page:
 
 page changes the color of the background
 
