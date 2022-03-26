@@ -1,0 +1,14 @@
+test
+TEST
+
+test_word
+test!word
+test.word
+
+test-word
+test--word
+
+testword--
+--testword
+testword----
+----testword
