@@ -1,1 +1,1 @@
-
+The goal of this programming assignment is to gain experience with recursive binary search, reading and processing text files, and object oriented design. Your task is to write a program that reads a document written in English, and calculates the estimated reading level of the document based on the rarity of words used. Documents that use more common words will have a lower reading level than documents that use very rare words.
